@@ -1,0 +1,255 @@
+"10000000","a",,,,
+"01000000","s",,,,
+"11000000","w",,,,
+"00100000","e",,,,
+"10100000","x",,,,
+"01100000","d",,,,
+"11100000",,"we",,"ad, we, da, ew, ead, eas, ade, dea, ase, wee, sea, wed, swe, wea, asse, ease, add, ews, eade, essa,",
+"00010000","t",,,,
+"10010000","f",,,,
+"01010000","c",,,,
+"11010000",,"fact",,"ca, ac, sta, act, tw, ast, fac, cat, acc, cas, stat, wat, sat, atc, fact, tac, sca, watc, sf, fas,",
+"00110000","r",,,,
+"10110000",,"are",,"ar, ra, fe, fr, rea, ear, are, ate, ef, art, eat, tra, rat, fte, reat, era, ffe, arr, afte, fter,",
+"01110000",,"set",,"ce, rs, ec, ers, ted, rd, res, est, red, der, cr, ect, ste, dr, str, rc, ces, rst, rec, rse,",
+"11110000",,"were",,"wer, were, ard, ace, war, car, eca, ars, eac, read, rac, ears, ated, wr, ward, star, twe, stra, crea, reas,",
+"00001000","n",,,,
+"10001000","q",,,,
+"01001000","j",,,,
+"11001000",,"san",,"wn, ans, wan, san, asn, answ, wasn, aj, sq, awn, asan, sna, wns, anw,","ja, nsw, jan, nw, nsa, nwa,"
+"00101000","y",,,,
+"10101000",,"any",,"ay, any, ean, eq, ane, aye, anne, ena, xan, exan, anx, eane, enan, enea,","yea, nea, nex, ya, nx, yan,"
+"01101000",,"eyes","need","end, dy, den, sen, dn, ens, sy, ense,","nd, ned, ys, nde, nes, nds, ness, je, yes, nse, need, nded,"
+"11101000",,"and",,"and, way, day, ays, say, wen, ways, ady, ands, away, eady, ween, dan, days, ande, says, sand,","new, nda, nswe,"
+"00011000","b",,,,
+"10011000",,"fan",,"ab, ba, ant, tan, tant, tab, ban, bab, bat, fan, batt, anta, fant, abb,","nat, nf, nta, nab, nfa, nant,"
+"01011000",,,,"bs, bj, sb, bst, bts, bc, bsc, bbs, cn, cb, cbs, stn,","nc, nts, nst, nsc, nct, ncts,"
+"11011000",,"can",,"can, anc, stan, bac, want, tanc, bas, ants, cann, abs, sba, sban, stab, sant, cq, acq, cans,","nsta, jac, nanc,"
+"00111000",,"be",,"be, ent, ry, ty, rn, by, br, ery, ten, ren, bee, been, ber, rne, ern, bet,","nte, ner, nter, ntr,"
+"10111000",,"ran","next","ran, ary, bef, arn, bea, ante, earn, bra, brea, aren, tran, ften, anyt, bar, rtan, req,","year, nera, next, near,"
+"01111000",,"best",,"enc, ence, bec, ents, cen, cent, rned, dent, sent, bes, renc, bed, cy, tend,","nce, nder, nted, jec, ject, nces,"
+"11111000",,"went","years",,
+"00000100","i",,,,
+"10000100","z",,,,
+"01000100","k",,,,
+"11000100",,"ask",,"wi, ak, sai, ask, asi, aki, wis, assi, wai, ais, sia, swi, ssia, wak, asks, aski, siz, asis,","ka, isa,"
+"00100100",",",,,,
+"10100100",,,,"ze, xi, exi, aze, ez, eez, eiz, eze, eeze, eize, xie, axi, zei, ezi, eezi, eizi,","ize, ix, ixe, ixi,"
+"01100100",,"did",,"di, did, sid, side, dis, esi, edi, die, ek, eek, ske, essi,","id, ke, ide, ike, ked, ies, ied, ise,"
+"11100100",,"said",,"ake, aid, said, eak, aske, adi, dia, akes, week, six, zed, eadi, easi, edia, xis, aise,","idea, iew, ized, ida,"
+"00010100","v",,,,
+"10010100",,,"if","fi, av, ati, va, tai, ffi, avi, ait, fai, tia, tati, ativ, vat, tif,","if, iff, ita, ift, iat, ifi,"
+"01010100",,,"its","ck, ci, sti, cti, tic, sit, cit, vis, vic, sist, sic, ctiv, visi, tis,","ic, ist, its, ick, ici, ict,"
+"11010100",,"wait",,"wit, ack, tak, fic, cia, acti, ffic, wait, tica, sati, cati, wif, taki, fici, aci,","ica, ista, icat, ific, icia,"
+"00110100",,"ever",,"ve, ri, ver, ev, eve, ever, eir, rie, eri, rit, rv, tri, rri, tive, erv, rti,","ir, ive, ite, ire,"
+"10110100",,"five",,"ave, fir, rai, air, ari, fri, arri, frie, rati, arti, ria, eav, trai, rtai, fie, eave,","ife, iffe, ief, iate,"
+"01110100",,"tried",,"rk, ved, ves, ric, ris, eci, ecti, serv, esti, ried, cri, rke, cke, vid, ties, vers,","ice, irs, irst, iste,"
+"11110100",,"first",,,
+"00001100","h",,,,
+"10001100",,"ah","han","ain, ani, ah, aini, zin, anin, aniz, azin,","ha, han, ina, ian, hai, niz, nia, iq, inan, niza, nha, niq,"
+"01001100",,,"his","sh, sin, shi, ssin,","his, kin, kn, nk, ins, ish, ink, nsi, hink, nis, nki, nkin, hs, nish, inki, insi,"
+"11001100",,,"has","wh, whi, wha, win, sha, ains, akin, ank, ash, wish, ashi, anks, wash, sian, anis, asin, whis,","has, hank, ians,"
+"00101100",,,"he","ein, eh, eni, enin, ehi, ehin,","he, hen, hey, ine, hei, ien, hy, yi, yin, hee, hie, nie, nei, inne,"
+"10101100",,,"yeah","aine, ayi, ayin, eha, eani, zen, anie, ahe, anxi, ahea, eah, zy, zine, azy, xh, exh,","hea, nize, nxi, yeah,"
+"01101100",,"she",,"she, din, didn, shed,","ind, hes, hed, ndi, hese, ines, ined, iend, iden, idn, kne, ndin, ken, nsid, ishe, indi,"
+"11101100",,"when","had",,
+"00011100",,"bit","hit","th, thi, thin, tin, bi, vin, ttin, bit,","ith, ht, int, nti, ib, nv, nit, hit, inv, ntin, nth, ivin,"
+"10011100",,"that",,"tha, that, ath, fin, than, tain, avin, fath, aint, van, fina, atin, abi, fini,","hat, hav, inf, nati, havi, ntai,"
+"01011100",,"this",,"ch, this, chi, tch, sib, chin, sch, ssib, stin, sinc, cin,","ich, hic, hich, inc, inst, nch, nci, nic, hts,"
+"11011100",,"with",,,
+"00111100",,"the",,"the, ther, they, ven, thei, very, rin, thr, even, then, eth, enti, rien,","her, here, heir, hr, ity, inte, nev,"
+"10111100",,,"have",,
+"01111100",,"these",,,
+"11111100",,"where","heard",,
+"00000010","o",,,,
+"10000010","(",,,,
+"01000010",".",,,,
+"11000010",,,,"wo, aso, woo, asso, swo, wso, awso, soa, aos, wow, awo, sow,","ow, ows, owa, oas, osa, ossa, owo,"
+"00100010","-",,,,
+"10100010",,,,"xo, exo, e-a, axo,","ox, oxe, -a,"
+"01100010",,"do",,"do, doe, does, doo, eso, esso, edo,","od, ose, ood, oes, ode, osed, odd, osse, ods, oose, oods, odde, oses,"
+"11100010",,"wood",,"dow, easo, ado, wood, dows, adow, sado, ewo,","owe, owed, oad, owd, oda, owde, owds, -da, o-da, oads, oade, oxes,"
+"00010010","g",,,,
+"10010010",,,"of","fo, ag, ga, aga, foo, gat, tag, ago, ato, ffo, goa, foot, gag, agg, tota,","of, off, oft, oat, ota,"
+"01010010",,"cost",,"co, sto, gs, cto, soc, sco, cco, stoo, cog, coo, cos, cost, cot, ssoc,","oc, ost, occ, oct, ots, octo,"
+"11010010",,"two",,"two, tow, acco, towa, coa, sag, foc, sof, ssag, soft, acto, stag, cof, coff, coat,","oac, oca, occa, oast, ocat,"
+"00110010",,"get","or","ro, ge, gr, eg, get, gre, rg, tor, ger, tro, roo, rge, gro, rot,","or, ore, ort, ote, oor, orr,"
+"10110010",,"for",,"for, fro, age, fore, efo, efor, gra, grea, arg, aro, ega, fort, arge, roa, gar, rag,","orta, ora, offe, ofte,"
+"01110010",,"good","order","eco, good, cor, stor, ges, rso, erso, cro, ged, ros, dg, rod, dge, door, sor, ross,","ord, ors, orde, orc,"
+"11110010",,"words","offered",,
+"00001010","u",,,,
+"10001010",,,,"au, qu, ano, qua, anno, aun, anu, anua, quan, quo,","ua, ona, una, nua, oan, nqu, onna, uan, onq, onqu,"
+"01001010",,"soon","us","su, son, sou, ssu, soon, soun, sun, sus, sons,","us, ons, ous, ju, jo, jus, uss, usu, nsu, njo, oj,"
+"11001010",,,"now","wou, aus, won, ason, sua, sona, asu, assu, ajo, squ, squa, woun,","now, own, nown, usa, usua, usan, ousa, nows,"
+"00101010",,,"you","eno, enou, eu, eon, eone,","yo, you, one, ue, oy, yon, youn, yone, oney, uy, uen, oye, nue, une, onne,"
+"10101010",,"anyone",,"que, equ, eau, eque, quen, anyo, quee, equa, xu, exu, xua, exua, aneo, xon,","oya, unex, ux, nque, uxu, unea,"
+"01101010",,"done","use","du, don, done, esu,","und, use, ound, ud, ond, unde, ues, ouse, used, ody, ude, ndo, odu, onde, udd, ones,"
+"11101010",,"down",,,
+"00011010",,"but","not","bu, bo, tu, but, bou, bout, gu, gn,","ng, ut, out, not, ug, oug, ong, ob, nto, ont, unt, ub,"
+"10011010",,"about",,"abo, fu, abou, ang, fou, gan, aug, tua, atu, anot, foun, aut,","uf, onf, uff, natu, nfo, nag, oba, uat,"
+"01011010",,,"just","con, cou, cu, suc, cons, cont, stu, coun, bus, cus, ctu, conc,","uc, ust, just, ngs, onc, unc, uct, job,"
+"11011010",,"town",,,
+"00111010",,,"your","rou, ru, tur, roug, gen, ture, roun, tru, turn, ron, bro, eng,","ur, our, ure, your, nge, urn, ute, nger,"
+"10111010",,"before","often",,
+"01111010",,"course","once",,
+"11111010",,"because",,,
+"00000110","l",,,,
+"10000110",,"all",,"al, all, ali, ail, alo, allo, ala, aliz, alli,","la, ial, lai, lia, lla, liz, iall, ila, olla, oal, ola,"
+"01000110",,,"look","sio, sl, ssio, sol, sil,","ok, ls, ook, lik, look, lk, los, lis, lso, osi, ossi, lls, oki, kil, isio,"
+"11000110",,"will",,"wil, will, als, alk, also, wal, alw, alwa, walk, wl, wall,","low, las, llow, lw, lwa, owi, lass, owl, law,"
+"00100110",,,"lie","el, ell, eli, eel, ele, elie, elo, elli, eeli, ello, elle,","le, lle, ile, lie, ole, olle, ille, lee, iel,"
+"10100110",,,,"eal, alle, ale, ela, eall, eali, aile, alex, eale, eliz, xio, elea, ael,","lea, lex, lize, lexa, oze, llea, lexi,"
+"01100110",,,"like","sel, dl, els, eld, del, dle,","ld, like, old, led, les, oke, lled, ild, less, oked, ooke, lose, ldi, lde,"
+"11100110",,"well",,,
+"00010110",,"till","lot","tio, gi, tl, gl, til, vo, ttl, till, giv,","ig, ov, lt, lit, lig, liv, litt, ittl, lv, itio, oti,"
+"10010110",,"fall",,"atio, tal, fl, gai, agai, alt, val, fol, gla, fig, flo, foll, agi, fil, alit,","lf, lat, lif, offi, lati,"
+"01010110",,"still","lost","cl, ctio, col, stil, sig, clo, took, clos, stio, cov, coll, soci, ctl,","lic, ock, osit, loc, oic, oci, list,"
+"11010110",,"call","last",,
+"00110110",,"tell","over","rl, tle, tel, ttle, rel, rig, vel, tell, give, rio, elt, rov,","ove, over, let, ori, lve, live, orl, love,"
+"10110110",,"felt","life",,
+"01110110",,"told","lives",,
+"11110110",,"work","least",,
+"00001110",,,"oh",,"ho, ul, ion, oul, hou, ui, lin, lu, nl, hu, lon, oin, hil, onl, hol, iou, uni, houl, ull, hoo,"
+"10001110",,,"hall","qui, alon, alu, qual, ainl, aul,","lan, nal, ual, onal, hal, iona, uall, ula, hall, inal, lain, lau, nall, lian,"
+"01001110",,"soul","john","sho, sion, shou, sul,","kno, ions, hos, ious, usi, hous, usin, onsi, lish, hus, okin, ush, lus, lkin, usl, ousl,"
+"11001110",,"who","how",,
+"00101110",,,"only","ely, elin, enl,","ly, lly, nly, only, hel, ily, len, hile, line, lue, hole, lone, loy, hone, ully, llen, ule,"
+"10101110",,"alone","lay",,
+"01101110",,"should","house",,
+"11101110",,"would",,,
+"00011110",,"thought","into","gh, tion, ght, bl, tho, ting, thou,","ing, igh, oth, ugh, ight, hing, ough, ning, into, ught, houg, long, ling,"
+"10011110",,"again","having",,
+"01011110",,"such","looking",,
+"11011110",,"without",,,
+"00111110",,"through","other",,
+"10111110",,"another",,,
+"01111110",,"could",,,
+"11111110",,"already","however",,
+"00000001","p",,,,
+"10000001","?",,,,
+"01000001",")",,,,
+"11000001",,,"pass","spa, aps, sap, asp, sapp, wsp, wspa, spap, assp,","pas, pass, pw, pwa, paw, paws,"
+"00100001",,,,,
+"10100001",,,,"xp, exp, appe, xpe, expe, ape, epa, eap, epea, xpa, expa, a', eape, a'a, x', ax',","pea, ppea, pape, 'a,"
+"01100001",,"deep",,"spe, e's, esp, e'd, dep, espe, deep, sep, desp, depe, spee, eps, d', d's,","s, 'd, ped, pped, pes, pse,"
+"11100001",,"we'd","passed","we', spea, depa, sepa, aspe, ewsp, we'd, weap, aped, weep, wep, apes, apse, swep, a's, xped, espa, dpa,","w, peas,"
+"00010001","←",,,"tp, ttp,","pt,"
+"10010001",,,"pat","apt, apta, tap, tapp,","pat, pta, patt, pf, ptat,"
+"01010001",,,,,"pts, pst, ptc, pc,"
+"11010001",,,"past","cap, capt, spac, scap, capa, apac, spat, fsp, ffsp, caps,","pac, past, pact, patc, psta, pats,"
+"00110001",,,"per","t', rep, ept, rp, tep, r', er', rpr, re', ere',","pr, 't, per, pre, 'r, 're, pte, ppr, pet, pret,"
+"10110001",,,"part","at', xper, epar, rap, appr, aper, apte, repa, xpr, expr, xpre, apar,","par, part, pare, pear, pra, perf, pera, para,"
+"01110001",,"step","press","t's, spec, cep, cept, resp, step, r's, er's, re's, spr, sper, ccep, teps,","pres, pec, pers, pect, perc, prec, pted,"
+"11110001",,"we're","perfect",,
+"00001001","m",,,,
+"10001001",,"am","man","am, amp, ama, apan, amm, ampa, amn, aman,","ma, man, pan, mpa, nam, mpan, mana, mma, mann, mman, nap, map,"
+"01001001",,,"ms","sm, ssm,","ms, nsp, mps, nsm, mns, mms,"
+"11001001",,,"mass","sam, sma, ams, span, ansp, amps, snap, asm, assm, ssma,","mas, maj, mass, jap, japa, mans, jam, mw, mpas, pans,"
+"00101001",,,"my","em, eme, eem, emp, emen, eeme, emem,","me, my, n', men, pen, mem, 'm, y', mme, ppen, pene, py, mee,"
+"10101001",,,"many","ame, ema, eam, an', xam, exam, eman, appy, xamp, amen, xpen,","may, mea, many, mean, name, pany, pay, pane, man',"
+"01101001",,"seemed",,"dn', seem, sn', ems, emed, spen, dem, dm, emse, esn',","med, mes, mse, mys, pend, myse, y's, n's, mmed, pens,"
+"11101001",,"same","made",,
+"00011001",,,,"tm, bm,","mb, mpt, ntm, pb, mt, mpb,"
+"10011001",,,,"fam, amb, tma, tnam, atm, apab, amat, bam, bama, amba, tam,","mat, matt, mf, mba, mpat, pant, pab, mant, mbat,"
+"01011001",,,,"stm,","mst, mc, mbs, mpts, mcc, mcs,"
+"11011001",,"camp","pants",,
+"00111001",,"remember","mr","rm, rem, emb, erm, tem, embe, reme, rme, temp, tme, tmen,","n't, ment, met, mer, mbe, mber, mr, memb, meet,"
+"10111001",,"army","matter",,
+"01111001",,"spent","mrs",,
+"11111001",,"came","parents",,
+"00000101","!",,,,
+"10000101",,,,"appi, api,","pai, ipa, pia, piz, pizz, iap, ippa,"
+"01000101",,,,"spi, sip, ssip, sipp, skip, spis,","ips, isp, pis, kp, pk, pki, piss, kip, psi, kipp,"
+"11000101",,,,"spai, wip, aspi, apk, apki, wipi, apis,","isap, ispa, kpa,"
+"00100101",,,"i","epi, eepi, eppi,","i', pie, ippe, ipe, 'i, pipe, ppie, ip',"
+"10100101",,,,"epai, z', eapi,","iz',"
+"01100101",,,"keep","disp, espi, dip, spie, epis,","keep, i'd, kep, pid, ispe, pied, pies, pedi, iped, ip's, k', k's, ipes, kesp, psid,"
+"11100101",,"speak","paid",,
+"00010101",,"tip",,"tip, tipp,","pti, pit, ipt, ipti,"
+"10010101",,,,"apit,","pati, pita, ptai, ipat, pav, ptia,"
+"01010101",,,"pick","cip, spit, spic, scip, tips, ckp,","pic, pick, pict, icip, pici, pitc, pist, pics, ptic,"
+"11010101",,,"pack",,
+"00110101",,"trip","i've","rip, rpri, epti, trip, ript, e'v, e've,","pri, it', peri, 'v, 've, pir, i'v, i've, priv, piri, prev, pite, peti,"
+"10110101",,,"private",,
+"01110101",,,"it's",,
+"11110101",,"we've","paris",,
+"00001101",,,"him",,"im, mi, him, min, ph, imp, pin, hip, imi, ppin, mmi, imm, phi, mini, hm, nim, mmin, imin, pini, mpi,"
+"10001101",,,"pain","ami, aim, amin, aph, anim, amaz,","hap, happ, ima, mai, main, pain, ham, pani, iam, mina, nima, pha, maz, impa,"
+"01001101",,"ship","miss","ship, sim, smi, simp, simi, shm, spin,","mis, ims, hims, miss, hips, ism, mik, insp, ishm, hisp, nspi, jim, km,"
+"11001101",,"spanish",,,
+"00101101",,,"i'm","emi, emin, epin, eph,","ime, hem, he', i'm, mine, hey', phy, imme, pine, imen, phe, peni, hme, in', hmen, meh,"
+"10101101",,,"happy",,
+"01101101",,"she'd","mind",,
+"11101101",,,"make",,
+"00011101",,,,"tim, timi, bmi,","mit, mbi, mitt, mmit, imit, mbin, ntim, imb, mpti, ptin, mbit, intm, mith, itm, mitm, ptim, pth,"
+"10011101",,,"path",,
+"01011101",,"smith",,,
+"11011101",,"captain","match",,
+"00111101",,"them",,,
+"10111101",,"remain","haven't",,
+"01111101",,"didn't",,,
+"11111101",,"that's","perhaps",,
+"00000011",,,,,
+"10000011",,,,"apo, appo,","opa, oap,"
+"01000011",,,,"spo, sop, spos, sspo, spoo,","pos, poss, ppos, osp, ops, oops, opos, osop, pso,"
+"11000011",,,,"soap,","pow, posa,"
+"00100011",,,"pope","eop, epo,","peo, peop, ope, oppe, o', poe, oope, pope, oe', 'o, -p,"
+"10100011",,,,"eapo, xpo, expo,","opea, -pa,"
+"01100011",,,"possessed","espo, dop,","pose, oped, ospe, o's, osep, opes, od', od's, o'd, oe's, pod, oss',"
+"11100011",,"exposed",,,
+"00010011",,"top",,"top, topp, toop,","pot, opt, pto, pott, ptop,"
+"10010011",,"gap",,"gap, apto, gapo, atop,","pag, pota, opag, paga,"
+"01010011",,"stop","post","stop, cop, spot, tops, cops, coop, copp, gosp, copt, scop,","post, poc, pots, pco,"
+"11010011",,,,,
+"00110011",,"report","poor","rop, rope, repo, epor, rpo, ropo, ropp, rpor, roop,","pro, por, port, oper, ppor, prop, ppro, prog, poor, prot, orp,"
+"10110011",,,"page",,
+"01110011",,"stopped","process",,
+"11110011",,,"power",,
+"00001011",,,"up",,"om, mo, up, mu, pu, um, omp, mon, omm, pon, oom, mom, mpo, mou, upp, oup, upo, upon, uppo, num,"
+"10001011",,,,"amo, amon, amou, apon, amu, ampu,","oma, ompa, oman, uma, uman, omma, pau, manu, mona, mau, upa, napo, mao, opam,"
+"01001011",,"sum","jump","som, sup, supp, sum, spon, summ, smo, susp, ssum,","mos, mus, pons, mous, mpos, pus, ups, usp, ums, mons, oms,"
+"11001011",,"woman",,,
+"00101011",,,"money","emo, epu,","ome, on', omen, u', ou', you', open, mome, ume, mone, meo, omeo, meon, memo, omme, umen, ompe, umme,"
+"10101011",,,,,
+"01101011",,"some",,,
+"11101011",,"women",,,
+"00011011",,,"put","tom, tum, gm, bom, bomb, tup, ttom,","mot, put, umb, pub, mont, numb, mong, omb, mout, mput, upt, putt, ptu,"
+"10011011",,"among",,,
+"01011011",,,"most",,
+"11011011",,"famous","moscow",,
+"00111011",,,"more",,
+"10111011",,"from",,,
+"01111011",,"don't","person",,
+"11111011",,"company","major",,
+"00000111",,,"pool",,"pl, opl, lp, poi, pol, pli, poli, plo, ppl, lip, lop, opi, pil, ipl, ppli, ppoi, lipp, oppi, pill, pilo,"
+"10000111",,,"lap","appl, apol, alp,","pla, plai, pal, lap, pala, ipal, llap, pola, lapp, ppal, pall, ppla, palo,"
+"01000111",,"slip","lips","spok, spl, slip, spli, spoi, spio,","posi, pok, lips, ospi, plis, ispl, ispo, lps, plos, pois, piso, kpl, opk, opki,"
+"11000111",,,,,
+"00100111",,,"people","eopl, elp, epl, elop, e'l, e'll, epli,","ple, ople, 'l, 'll, plie, i'l, i'll, leep, iple, lope, pel, pple, lep,"
+"10100111",,"apple","pale",,
+"01100111",,"spoke","people's",,
+"11100111",,"we'll","please",,
+"00010111",,,"pilot","topi, tipl, tpl,","ptio, opti, ptl, pig, plit, pov, pilg, plot, ltip, lpt, lpit,"
+"10010111",,,,,
+"01010111",,"split","politics",,
+"11010111",,"capital","political",,
+"00110111",,,"prove",,
+"10110111",,"april","plate",,
+"01110111",,"replied","police",,
+"11110111",,,"place",,
+"00001111",,,"million",,"mil, mpl, hom, lm, omi, poin, ompl, impo, hop, mili, pul, impl, lmo, hum, omin, pho, minu, lim, muni, pull,"
+"10001111",,,"human",,
+"01001111",,"shop","mission",,
+"11001111",,"small",,,
+"00101111",,,"home",,
+"10101111",,"example","play",,
+"01101111",,"simply","pulled",,
+"11101111",,"explained","played",,
+"00011111",,,"might",,
+"10011111",,"film","imagination",,
+"01011111",,,"much",,
+"11011111",,"almost","making",,
+"00111111",,"government","mother",,
+"10111111",,"family","important",,
+"01111111",,"something","possible",,
+"11111111",,"especially","himself",,

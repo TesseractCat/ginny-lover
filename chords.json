@@ -1,0 +1,4275 @@
+{
+    "10000000": {
+        "base": "a",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01000000": {
+        "base": "s",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11000000": {
+        "base": "w",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00100000": {
+        "base": "e",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10100000": {
+        "base": "x",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01100000": {
+        "base": "d",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11100000": {
+        "base": "",
+        "left_word": "we",
+        "right_word": "",
+        "left_partials": [
+            "ad",
+            "we",
+            "da",
+            "ew",
+            "ead",
+            "eas",
+            "ade",
+            "dea",
+            "ase",
+            "wee",
+            "sea",
+            "wed",
+            "swe",
+            "wea",
+            "asse",
+            "ease",
+            "add",
+            "ews",
+            "eade",
+            "essa"
+        ],
+        "right_partials": []
+    },
+    "00010000": {
+        "base": "t",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10010000": {
+        "base": "f",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01010000": {
+        "base": "c",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11010000": {
+        "base": "",
+        "left_word": "fact",
+        "right_word": "",
+        "left_partials": [
+            "ca",
+            "ac",
+            "sta",
+            "act",
+            "tw",
+            "ast",
+            "fac",
+            "cat",
+            "acc",
+            "cas",
+            "stat",
+            "wat",
+            "sat",
+            "atc",
+            "fact",
+            "tac",
+            "sca",
+            "watc",
+            "sf",
+            "fas"
+        ],
+        "right_partials": []
+    },
+    "00110000": {
+        "base": "r",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10110000": {
+        "base": "",
+        "left_word": "are",
+        "right_word": "",
+        "left_partials": [
+            "ar",
+            "ra",
+            "fe",
+            "fr",
+            "rea",
+            "ear",
+            "are",
+            "ate",
+            "ef",
+            "art",
+            "eat",
+            "tra",
+            "rat",
+            "fte",
+            "reat",
+            "era",
+            "ffe",
+            "arr",
+            "afte",
+            "fter"
+        ],
+        "right_partials": []
+    },
+    "01110000": {
+        "base": "",
+        "left_word": "set",
+        "right_word": "",
+        "left_partials": [
+            "ce",
+            "rs",
+            "ec",
+            "ers",
+            "ted",
+            "rd",
+            "res",
+            "est",
+            "red",
+            "der",
+            "cr",
+            "ect",
+            "ste",
+            "dr",
+            "str",
+            "rc",
+            "ces",
+            "rst",
+            "rec",
+            "rse"
+        ],
+        "right_partials": []
+    },
+    "11110000": {
+        "base": "",
+        "left_word": "were",
+        "right_word": "",
+        "left_partials": [
+            "wer",
+            "were",
+            "ard",
+            "ace",
+            "war",
+            "car",
+            "eca",
+            "ars",
+            "eac",
+            "read",
+            "rac",
+            "ears",
+            "ated",
+            "wr",
+            "ward",
+            "star",
+            "twe",
+            "stra",
+            "crea",
+            "reas"
+        ],
+        "right_partials": []
+    },
+    "00001000": {
+        "base": "n",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10001000": {
+        "base": "q",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01001000": {
+        "base": "j",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11001000": {
+        "base": "",
+        "left_word": "san",
+        "right_word": "",
+        "left_partials": [
+            "wn",
+            "ans",
+            "wan",
+            "san",
+            "asn",
+            "answ",
+            "wasn",
+            "aj",
+            "sq",
+            "awn",
+            "asan",
+            "sna",
+            "wns",
+            "anw"
+        ],
+        "right_partials": [
+            "ja",
+            "nsw",
+            "jan",
+            "nw",
+            "nsa",
+            "nwa"
+        ]
+    },
+    "00101000": {
+        "base": "y",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10101000": {
+        "base": "",
+        "left_word": "any",
+        "right_word": "",
+        "left_partials": [
+            "ay",
+            "any",
+            "ean",
+            "eq",
+            "ane",
+            "aye",
+            "anne",
+            "ena",
+            "xan",
+            "exan",
+            "anx",
+            "eane",
+            "enan",
+            "enea"
+        ],
+        "right_partials": [
+            "yea",
+            "nea",
+            "nex",
+            "ya",
+            "nx",
+            "yan"
+        ]
+    },
+    "01101000": {
+        "base": "",
+        "left_word": "eyes",
+        "right_word": "need",
+        "left_partials": [
+            "end",
+            "dy",
+            "den",
+            "sen",
+            "dn",
+            "ens",
+            "sy",
+            "ense"
+        ],
+        "right_partials": [
+            "nd",
+            "ned",
+            "ys",
+            "nde",
+            "nes",
+            "nds",
+            "ness",
+            "je",
+            "yes",
+            "nse",
+            "need",
+            "nded"
+        ]
+    },
+    "11101000": {
+        "base": "",
+        "left_word": "and",
+        "right_word": "",
+        "left_partials": [
+            "and",
+            "way",
+            "day",
+            "ays",
+            "say",
+            "wen",
+            "ways",
+            "ady",
+            "ands",
+            "away",
+            "eady",
+            "ween",
+            "dan",
+            "days",
+            "ande",
+            "says",
+            "sand"
+        ],
+        "right_partials": [
+            "new",
+            "nda",
+            "nswe"
+        ]
+    },
+    "00011000": {
+        "base": "b",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10011000": {
+        "base": "",
+        "left_word": "fan",
+        "right_word": "",
+        "left_partials": [
+            "ab",
+            "ba",
+            "ant",
+            "tan",
+            "tant",
+            "tab",
+            "ban",
+            "bab",
+            "bat",
+            "fan",
+            "batt",
+            "anta",
+            "fant",
+            "abb"
+        ],
+        "right_partials": [
+            "nat",
+            "nf",
+            "nta",
+            "nab",
+            "nfa",
+            "nant"
+        ]
+    },
+    "01011000": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "bs",
+            "bj",
+            "sb",
+            "bst",
+            "bts",
+            "bc",
+            "bsc",
+            "bbs",
+            "cn",
+            "cb",
+            "cbs",
+            "stn"
+        ],
+        "right_partials": [
+            "nc",
+            "nts",
+            "nst",
+            "nsc",
+            "nct",
+            "ncts"
+        ]
+    },
+    "11011000": {
+        "base": "",
+        "left_word": "can",
+        "right_word": "",
+        "left_partials": [
+            "can",
+            "anc",
+            "stan",
+            "bac",
+            "want",
+            "tanc",
+            "bas",
+            "ants",
+            "cann",
+            "abs",
+            "sba",
+            "sban",
+            "stab",
+            "sant",
+            "cq",
+            "acq",
+            "cans"
+        ],
+        "right_partials": [
+            "nsta",
+            "jac",
+            "nanc"
+        ]
+    },
+    "00111000": {
+        "base": "",
+        "left_word": "be",
+        "right_word": "",
+        "left_partials": [
+            "be",
+            "ent",
+            "ry",
+            "ty",
+            "rn",
+            "by",
+            "br",
+            "ery",
+            "ten",
+            "ren",
+            "bee",
+            "been",
+            "ber",
+            "rne",
+            "ern",
+            "bet"
+        ],
+        "right_partials": [
+            "nte",
+            "ner",
+            "nter",
+            "ntr"
+        ]
+    },
+    "10111000": {
+        "base": "",
+        "left_word": "ran",
+        "right_word": "next",
+        "left_partials": [
+            "ran",
+            "ary",
+            "bef",
+            "arn",
+            "bea",
+            "ante",
+            "earn",
+            "bra",
+            "brea",
+            "aren",
+            "tran",
+            "ften",
+            "anyt",
+            "bar",
+            "rtan",
+            "req"
+        ],
+        "right_partials": [
+            "year",
+            "nera",
+            "next",
+            "near"
+        ]
+    },
+    "01111000": {
+        "base": "",
+        "left_word": "best",
+        "right_word": "",
+        "left_partials": [
+            "enc",
+            "ence",
+            "bec",
+            "ents",
+            "cen",
+            "cent",
+            "rned",
+            "dent",
+            "sent",
+            "bes",
+            "renc",
+            "bed",
+            "cy",
+            "tend"
+        ],
+        "right_partials": [
+            "nce",
+            "nder",
+            "nted",
+            "jec",
+            "ject",
+            "nces"
+        ]
+    },
+    "11111000": {
+        "base": "",
+        "left_word": "went",
+        "right_word": "years",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000100": {
+        "base": "i",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000100": {
+        "base": "z",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01000100": {
+        "base": "k",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11000100": {
+        "base": "",
+        "left_word": "ask",
+        "right_word": "",
+        "left_partials": [
+            "wi",
+            "ak",
+            "sai",
+            "ask",
+            "asi",
+            "aki",
+            "wis",
+            "assi",
+            "wai",
+            "ais",
+            "sia",
+            "swi",
+            "ssia",
+            "wak",
+            "asks",
+            "aski",
+            "siz",
+            "asis"
+        ],
+        "right_partials": [
+            "ka",
+            "isa"
+        ]
+    },
+    "00100100": {
+        "base": ",",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10100100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "ze",
+            "xi",
+            "exi",
+            "aze",
+            "ez",
+            "eez",
+            "eiz",
+            "eze",
+            "eeze",
+            "eize",
+            "xie",
+            "axi",
+            "zei",
+            "ezi",
+            "eezi",
+            "eizi"
+        ],
+        "right_partials": [
+            "ize",
+            "ix",
+            "ixe",
+            "ixi"
+        ]
+    },
+    "01100100": {
+        "base": "",
+        "left_word": "did",
+        "right_word": "",
+        "left_partials": [
+            "di",
+            "did",
+            "sid",
+            "side",
+            "dis",
+            "esi",
+            "edi",
+            "die",
+            "ek",
+            "eek",
+            "ske",
+            "essi"
+        ],
+        "right_partials": [
+            "id",
+            "ke",
+            "ide",
+            "ike",
+            "ked",
+            "ies",
+            "ied",
+            "ise"
+        ]
+    },
+    "11100100": {
+        "base": "",
+        "left_word": "said",
+        "right_word": "",
+        "left_partials": [
+            "ake",
+            "aid",
+            "said",
+            "eak",
+            "aske",
+            "adi",
+            "dia",
+            "akes",
+            "week",
+            "six",
+            "zed",
+            "eadi",
+            "easi",
+            "edia",
+            "xis",
+            "aise"
+        ],
+        "right_partials": [
+            "idea",
+            "iew",
+            "ized",
+            "ida"
+        ]
+    },
+    "00010100": {
+        "base": "v",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10010100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "if",
+        "left_partials": [
+            "fi",
+            "av",
+            "ati",
+            "va",
+            "tai",
+            "ffi",
+            "avi",
+            "ait",
+            "fai",
+            "tia",
+            "tati",
+            "ativ",
+            "vat",
+            "tif"
+        ],
+        "right_partials": [
+            "if",
+            "iff",
+            "ita",
+            "ift",
+            "iat",
+            "ifi"
+        ]
+    },
+    "01010100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "its",
+        "left_partials": [
+            "ck",
+            "ci",
+            "sti",
+            "cti",
+            "tic",
+            "sit",
+            "cit",
+            "vis",
+            "vic",
+            "sist",
+            "sic",
+            "ctiv",
+            "visi",
+            "tis"
+        ],
+        "right_partials": [
+            "ic",
+            "ist",
+            "its",
+            "ick",
+            "ici",
+            "ict"
+        ]
+    },
+    "11010100": {
+        "base": "",
+        "left_word": "wait",
+        "right_word": "",
+        "left_partials": [
+            "wit",
+            "ack",
+            "tak",
+            "fic",
+            "cia",
+            "acti",
+            "ffic",
+            "wait",
+            "tica",
+            "sati",
+            "cati",
+            "wif",
+            "taki",
+            "fici",
+            "aci"
+        ],
+        "right_partials": [
+            "ica",
+            "ista",
+            "icat",
+            "ific",
+            "icia"
+        ]
+    },
+    "00110100": {
+        "base": "",
+        "left_word": "ever",
+        "right_word": "",
+        "left_partials": [
+            "ve",
+            "ri",
+            "ver",
+            "ev",
+            "eve",
+            "ever",
+            "eir",
+            "rie",
+            "eri",
+            "rit",
+            "rv",
+            "tri",
+            "rri",
+            "tive",
+            "erv",
+            "rti"
+        ],
+        "right_partials": [
+            "ir",
+            "ive",
+            "ite",
+            "ire"
+        ]
+    },
+    "10110100": {
+        "base": "",
+        "left_word": "five",
+        "right_word": "",
+        "left_partials": [
+            "ave",
+            "fir",
+            "rai",
+            "air",
+            "ari",
+            "fri",
+            "arri",
+            "frie",
+            "rati",
+            "arti",
+            "ria",
+            "eav",
+            "trai",
+            "rtai",
+            "fie",
+            "eave"
+        ],
+        "right_partials": [
+            "ife",
+            "iffe",
+            "ief",
+            "iate"
+        ]
+    },
+    "01110100": {
+        "base": "",
+        "left_word": "tried",
+        "right_word": "",
+        "left_partials": [
+            "rk",
+            "ved",
+            "ves",
+            "ric",
+            "ris",
+            "eci",
+            "ecti",
+            "serv",
+            "esti",
+            "ried",
+            "cri",
+            "rke",
+            "cke",
+            "vid",
+            "ties",
+            "vers"
+        ],
+        "right_partials": [
+            "ice",
+            "irs",
+            "irst",
+            "iste"
+        ]
+    },
+    "11110100": {
+        "base": "",
+        "left_word": "first",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001100": {
+        "base": "h",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10001100": {
+        "base": "",
+        "left_word": "ah",
+        "right_word": "han",
+        "left_partials": [
+            "ain",
+            "ani",
+            "ah",
+            "aini",
+            "zin",
+            "anin",
+            "aniz",
+            "azin"
+        ],
+        "right_partials": [
+            "ha",
+            "han",
+            "ina",
+            "ian",
+            "hai",
+            "niz",
+            "nia",
+            "iq",
+            "inan",
+            "niza",
+            "nha",
+            "niq"
+        ]
+    },
+    "01001100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "his",
+        "left_partials": [
+            "sh",
+            "sin",
+            "shi",
+            "ssin"
+        ],
+        "right_partials": [
+            "his",
+            "kin",
+            "kn",
+            "nk",
+            "ins",
+            "ish",
+            "ink",
+            "nsi",
+            "hink",
+            "nis",
+            "nki",
+            "nkin",
+            "hs",
+            "nish",
+            "inki",
+            "insi"
+        ]
+    },
+    "11001100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "has",
+        "left_partials": [
+            "wh",
+            "whi",
+            "wha",
+            "win",
+            "sha",
+            "ains",
+            "akin",
+            "ank",
+            "ash",
+            "wish",
+            "ashi",
+            "anks",
+            "wash",
+            "sian",
+            "anis",
+            "asin",
+            "whis"
+        ],
+        "right_partials": [
+            "has",
+            "hank",
+            "ians"
+        ]
+    },
+    "00101100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "he",
+        "left_partials": [
+            "ein",
+            "eh",
+            "eni",
+            "enin",
+            "ehi",
+            "ehin"
+        ],
+        "right_partials": [
+            "he",
+            "hen",
+            "hey",
+            "ine",
+            "hei",
+            "ien",
+            "hy",
+            "yi",
+            "yin",
+            "hee",
+            "hie",
+            "nie",
+            "nei",
+            "inne"
+        ]
+    },
+    "10101100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "yeah",
+        "left_partials": [
+            "aine",
+            "ayi",
+            "ayin",
+            "eha",
+            "eani",
+            "zen",
+            "anie",
+            "ahe",
+            "anxi",
+            "ahea",
+            "eah",
+            "zy",
+            "zine",
+            "azy",
+            "xh",
+            "exh"
+        ],
+        "right_partials": [
+            "hea",
+            "nize",
+            "nxi",
+            "yeah"
+        ]
+    },
+    "01101100": {
+        "base": "",
+        "left_word": "she",
+        "right_word": "",
+        "left_partials": [
+            "she",
+            "din",
+            "didn",
+            "shed"
+        ],
+        "right_partials": [
+            "ind",
+            "hes",
+            "hed",
+            "ndi",
+            "hese",
+            "ines",
+            "ined",
+            "iend",
+            "iden",
+            "idn",
+            "kne",
+            "ndin",
+            "ken",
+            "nsid",
+            "ishe",
+            "indi"
+        ]
+    },
+    "11101100": {
+        "base": "",
+        "left_word": "when",
+        "right_word": "had",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011100": {
+        "base": "",
+        "left_word": "bit",
+        "right_word": "hit",
+        "left_partials": [
+            "th",
+            "thi",
+            "thin",
+            "tin",
+            "bi",
+            "vin",
+            "ttin",
+            "bit"
+        ],
+        "right_partials": [
+            "ith",
+            "ht",
+            "int",
+            "nti",
+            "ib",
+            "nv",
+            "nit",
+            "hit",
+            "inv",
+            "ntin",
+            "nth",
+            "ivin"
+        ]
+    },
+    "10011100": {
+        "base": "",
+        "left_word": "that",
+        "right_word": "",
+        "left_partials": [
+            "tha",
+            "that",
+            "ath",
+            "fin",
+            "than",
+            "tain",
+            "avin",
+            "fath",
+            "aint",
+            "van",
+            "fina",
+            "atin",
+            "abi",
+            "fini"
+        ],
+        "right_partials": [
+            "hat",
+            "hav",
+            "inf",
+            "nati",
+            "havi",
+            "ntai"
+        ]
+    },
+    "01011100": {
+        "base": "",
+        "left_word": "this",
+        "right_word": "",
+        "left_partials": [
+            "ch",
+            "this",
+            "chi",
+            "tch",
+            "sib",
+            "chin",
+            "sch",
+            "ssib",
+            "stin",
+            "sinc",
+            "cin"
+        ],
+        "right_partials": [
+            "ich",
+            "hic",
+            "hich",
+            "inc",
+            "inst",
+            "nch",
+            "nci",
+            "nic",
+            "hts"
+        ]
+    },
+    "11011100": {
+        "base": "",
+        "left_word": "with",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111100": {
+        "base": "",
+        "left_word": "the",
+        "right_word": "",
+        "left_partials": [
+            "the",
+            "ther",
+            "they",
+            "ven",
+            "thei",
+            "very",
+            "rin",
+            "thr",
+            "even",
+            "then",
+            "eth",
+            "enti",
+            "rien"
+        ],
+        "right_partials": [
+            "her",
+            "here",
+            "heir",
+            "hr",
+            "ity",
+            "inte",
+            "nev"
+        ]
+    },
+    "10111100": {
+        "base": "",
+        "left_word": "",
+        "right_word": "have",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111100": {
+        "base": "",
+        "left_word": "these",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111100": {
+        "base": "",
+        "left_word": "where",
+        "right_word": "heard",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000010": {
+        "base": "o",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000010": {
+        "base": "(",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01000010": {
+        "base": ".",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11000010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "wo",
+            "aso",
+            "woo",
+            "asso",
+            "swo",
+            "wso",
+            "awso",
+            "soa",
+            "aos",
+            "wow",
+            "awo",
+            "sow"
+        ],
+        "right_partials": [
+            "ow",
+            "ows",
+            "owa",
+            "oas",
+            "osa",
+            "ossa",
+            "owo"
+        ]
+    },
+    "00100010": {
+        "base": "-",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10100010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "xo",
+            "exo",
+            "e-a",
+            "axo"
+        ],
+        "right_partials": [
+            "ox",
+            "oxe",
+            "-a"
+        ]
+    },
+    "01100010": {
+        "base": "",
+        "left_word": "do",
+        "right_word": "",
+        "left_partials": [
+            "do",
+            "doe",
+            "does",
+            "doo",
+            "eso",
+            "esso",
+            "edo"
+        ],
+        "right_partials": [
+            "od",
+            "ose",
+            "ood",
+            "oes",
+            "ode",
+            "osed",
+            "odd",
+            "osse",
+            "ods",
+            "oose",
+            "oods",
+            "odde",
+            "oses"
+        ]
+    },
+    "11100010": {
+        "base": "",
+        "left_word": "wood",
+        "right_word": "",
+        "left_partials": [
+            "dow",
+            "easo",
+            "ado",
+            "wood",
+            "dows",
+            "adow",
+            "sado",
+            "ewo"
+        ],
+        "right_partials": [
+            "owe",
+            "owed",
+            "oad",
+            "owd",
+            "oda",
+            "owde",
+            "owds",
+            "-da",
+            "o-da",
+            "oads",
+            "oade",
+            "oxes"
+        ]
+    },
+    "00010010": {
+        "base": "g",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10010010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "of",
+        "left_partials": [
+            "fo",
+            "ag",
+            "ga",
+            "aga",
+            "foo",
+            "gat",
+            "tag",
+            "ago",
+            "ato",
+            "ffo",
+            "goa",
+            "foot",
+            "gag",
+            "agg",
+            "tota"
+        ],
+        "right_partials": [
+            "of",
+            "off",
+            "oft",
+            "oat",
+            "ota"
+        ]
+    },
+    "01010010": {
+        "base": "",
+        "left_word": "cost",
+        "right_word": "",
+        "left_partials": [
+            "co",
+            "sto",
+            "gs",
+            "cto",
+            "soc",
+            "sco",
+            "cco",
+            "stoo",
+            "cog",
+            "coo",
+            "cos",
+            "cost",
+            "cot",
+            "ssoc"
+        ],
+        "right_partials": [
+            "oc",
+            "ost",
+            "occ",
+            "oct",
+            "ots",
+            "octo"
+        ]
+    },
+    "11010010": {
+        "base": "",
+        "left_word": "two",
+        "right_word": "",
+        "left_partials": [
+            "two",
+            "tow",
+            "acco",
+            "towa",
+            "coa",
+            "sag",
+            "foc",
+            "sof",
+            "ssag",
+            "soft",
+            "acto",
+            "stag",
+            "cof",
+            "coff",
+            "coat"
+        ],
+        "right_partials": [
+            "oac",
+            "oca",
+            "occa",
+            "oast",
+            "ocat"
+        ]
+    },
+    "00110010": {
+        "base": "",
+        "left_word": "get",
+        "right_word": "or",
+        "left_partials": [
+            "ro",
+            "ge",
+            "gr",
+            "eg",
+            "get",
+            "gre",
+            "rg",
+            "tor",
+            "ger",
+            "tro",
+            "roo",
+            "rge",
+            "gro",
+            "rot"
+        ],
+        "right_partials": [
+            "or",
+            "ore",
+            "ort",
+            "ote",
+            "oor",
+            "orr"
+        ]
+    },
+    "10110010": {
+        "base": "",
+        "left_word": "for",
+        "right_word": "",
+        "left_partials": [
+            "for",
+            "fro",
+            "age",
+            "fore",
+            "efo",
+            "efor",
+            "gra",
+            "grea",
+            "arg",
+            "aro",
+            "ega",
+            "fort",
+            "arge",
+            "roa",
+            "gar",
+            "rag"
+        ],
+        "right_partials": [
+            "orta",
+            "ora",
+            "offe",
+            "ofte"
+        ]
+    },
+    "01110010": {
+        "base": "",
+        "left_word": "good",
+        "right_word": "order",
+        "left_partials": [
+            "eco",
+            "good",
+            "cor",
+            "stor",
+            "ges",
+            "rso",
+            "erso",
+            "cro",
+            "ged",
+            "ros",
+            "dg",
+            "rod",
+            "dge",
+            "door",
+            "sor",
+            "ross"
+        ],
+        "right_partials": [
+            "ord",
+            "ors",
+            "orde",
+            "orc"
+        ]
+    },
+    "11110010": {
+        "base": "",
+        "left_word": "words",
+        "right_word": "offered",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001010": {
+        "base": "u",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10001010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "au",
+            "qu",
+            "ano",
+            "qua",
+            "anno",
+            "aun",
+            "anu",
+            "anua",
+            "quan",
+            "quo"
+        ],
+        "right_partials": [
+            "ua",
+            "ona",
+            "una",
+            "nua",
+            "oan",
+            "nqu",
+            "onna",
+            "uan",
+            "onq",
+            "onqu"
+        ]
+    },
+    "01001010": {
+        "base": "",
+        "left_word": "soon",
+        "right_word": "us",
+        "left_partials": [
+            "su",
+            "son",
+            "sou",
+            "ssu",
+            "soon",
+            "soun",
+            "sun",
+            "sus",
+            "sons"
+        ],
+        "right_partials": [
+            "us",
+            "ons",
+            "ous",
+            "ju",
+            "jo",
+            "jus",
+            "uss",
+            "usu",
+            "nsu",
+            "njo",
+            "oj"
+        ]
+    },
+    "11001010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "now",
+        "left_partials": [
+            "wou",
+            "aus",
+            "won",
+            "ason",
+            "sua",
+            "sona",
+            "asu",
+            "assu",
+            "ajo",
+            "squ",
+            "squa",
+            "woun"
+        ],
+        "right_partials": [
+            "now",
+            "own",
+            "nown",
+            "usa",
+            "usua",
+            "usan",
+            "ousa",
+            "nows"
+        ]
+    },
+    "00101010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "you",
+        "left_partials": [
+            "eno",
+            "enou",
+            "eu",
+            "eon",
+            "eone"
+        ],
+        "right_partials": [
+            "yo",
+            "you",
+            "one",
+            "ue",
+            "oy",
+            "yon",
+            "youn",
+            "yone",
+            "oney",
+            "uy",
+            "uen",
+            "oye",
+            "nue",
+            "une",
+            "onne"
+        ]
+    },
+    "10101010": {
+        "base": "",
+        "left_word": "anyone",
+        "right_word": "",
+        "left_partials": [
+            "que",
+            "equ",
+            "eau",
+            "eque",
+            "quen",
+            "anyo",
+            "quee",
+            "equa",
+            "xu",
+            "exu",
+            "xua",
+            "exua",
+            "aneo",
+            "xon"
+        ],
+        "right_partials": [
+            "oya",
+            "unex",
+            "ux",
+            "nque",
+            "uxu",
+            "unea"
+        ]
+    },
+    "01101010": {
+        "base": "",
+        "left_word": "done",
+        "right_word": "use",
+        "left_partials": [
+            "du",
+            "don",
+            "done",
+            "esu"
+        ],
+        "right_partials": [
+            "und",
+            "use",
+            "ound",
+            "ud",
+            "ond",
+            "unde",
+            "ues",
+            "ouse",
+            "used",
+            "ody",
+            "ude",
+            "ndo",
+            "odu",
+            "onde",
+            "udd",
+            "ones"
+        ]
+    },
+    "11101010": {
+        "base": "",
+        "left_word": "down",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011010": {
+        "base": "",
+        "left_word": "but",
+        "right_word": "not",
+        "left_partials": [
+            "bu",
+            "bo",
+            "tu",
+            "but",
+            "bou",
+            "bout",
+            "gu",
+            "gn"
+        ],
+        "right_partials": [
+            "ng",
+            "ut",
+            "out",
+            "not",
+            "ug",
+            "oug",
+            "ong",
+            "ob",
+            "nto",
+            "ont",
+            "unt",
+            "ub"
+        ]
+    },
+    "10011010": {
+        "base": "",
+        "left_word": "about",
+        "right_word": "",
+        "left_partials": [
+            "abo",
+            "fu",
+            "abou",
+            "ang",
+            "fou",
+            "gan",
+            "aug",
+            "tua",
+            "atu",
+            "anot",
+            "foun",
+            "aut"
+        ],
+        "right_partials": [
+            "uf",
+            "onf",
+            "uff",
+            "natu",
+            "nfo",
+            "nag",
+            "oba",
+            "uat"
+        ]
+    },
+    "01011010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "just",
+        "left_partials": [
+            "con",
+            "cou",
+            "cu",
+            "suc",
+            "cons",
+            "cont",
+            "stu",
+            "coun",
+            "bus",
+            "cus",
+            "ctu",
+            "conc"
+        ],
+        "right_partials": [
+            "uc",
+            "ust",
+            "just",
+            "ngs",
+            "onc",
+            "unc",
+            "uct",
+            "job"
+        ]
+    },
+    "11011010": {
+        "base": "",
+        "left_word": "town",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111010": {
+        "base": "",
+        "left_word": "",
+        "right_word": "your",
+        "left_partials": [
+            "rou",
+            "ru",
+            "tur",
+            "roug",
+            "gen",
+            "ture",
+            "roun",
+            "tru",
+            "turn",
+            "ron",
+            "bro",
+            "eng"
+        ],
+        "right_partials": [
+            "ur",
+            "our",
+            "ure",
+            "your",
+            "nge",
+            "urn",
+            "ute",
+            "nger"
+        ]
+    },
+    "10111010": {
+        "base": "",
+        "left_word": "before",
+        "right_word": "often",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111010": {
+        "base": "",
+        "left_word": "course",
+        "right_word": "once",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111010": {
+        "base": "",
+        "left_word": "because",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000110": {
+        "base": "l",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000110": {
+        "base": "",
+        "left_word": "all",
+        "right_word": "",
+        "left_partials": [
+            "al",
+            "all",
+            "ali",
+            "ail",
+            "alo",
+            "allo",
+            "ala",
+            "aliz",
+            "alli"
+        ],
+        "right_partials": [
+            "la",
+            "ial",
+            "lai",
+            "lia",
+            "lla",
+            "liz",
+            "iall",
+            "ila",
+            "olla",
+            "oal",
+            "ola"
+        ]
+    },
+    "01000110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "look",
+        "left_partials": [
+            "sio",
+            "sl",
+            "ssio",
+            "sol",
+            "sil"
+        ],
+        "right_partials": [
+            "ok",
+            "ls",
+            "ook",
+            "lik",
+            "look",
+            "lk",
+            "los",
+            "lis",
+            "lso",
+            "osi",
+            "ossi",
+            "lls",
+            "oki",
+            "kil",
+            "isio"
+        ]
+    },
+    "11000110": {
+        "base": "",
+        "left_word": "will",
+        "right_word": "",
+        "left_partials": [
+            "wil",
+            "will",
+            "als",
+            "alk",
+            "also",
+            "wal",
+            "alw",
+            "alwa",
+            "walk",
+            "wl",
+            "wall"
+        ],
+        "right_partials": [
+            "low",
+            "las",
+            "llow",
+            "lw",
+            "lwa",
+            "owi",
+            "lass",
+            "owl",
+            "law"
+        ]
+    },
+    "00100110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "lie",
+        "left_partials": [
+            "el",
+            "ell",
+            "eli",
+            "eel",
+            "ele",
+            "elie",
+            "elo",
+            "elli",
+            "eeli",
+            "ello",
+            "elle"
+        ],
+        "right_partials": [
+            "le",
+            "lle",
+            "ile",
+            "lie",
+            "ole",
+            "olle",
+            "ille",
+            "lee",
+            "iel"
+        ]
+    },
+    "10100110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "eal",
+            "alle",
+            "ale",
+            "ela",
+            "eall",
+            "eali",
+            "aile",
+            "alex",
+            "eale",
+            "eliz",
+            "xio",
+            "elea",
+            "ael"
+        ],
+        "right_partials": [
+            "lea",
+            "lex",
+            "lize",
+            "lexa",
+            "oze",
+            "llea",
+            "lexi"
+        ]
+    },
+    "01100110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "like",
+        "left_partials": [
+            "sel",
+            "dl",
+            "els",
+            "eld",
+            "del",
+            "dle"
+        ],
+        "right_partials": [
+            "ld",
+            "like",
+            "old",
+            "led",
+            "les",
+            "oke",
+            "lled",
+            "ild",
+            "less",
+            "oked",
+            "ooke",
+            "lose",
+            "ldi",
+            "lde"
+        ]
+    },
+    "11100110": {
+        "base": "",
+        "left_word": "well",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00010110": {
+        "base": "",
+        "left_word": "till",
+        "right_word": "lot",
+        "left_partials": [
+            "tio",
+            "gi",
+            "tl",
+            "gl",
+            "til",
+            "vo",
+            "ttl",
+            "till",
+            "giv"
+        ],
+        "right_partials": [
+            "ig",
+            "ov",
+            "lt",
+            "lit",
+            "lig",
+            "liv",
+            "litt",
+            "ittl",
+            "lv",
+            "itio",
+            "oti"
+        ]
+    },
+    "10010110": {
+        "base": "",
+        "left_word": "fall",
+        "right_word": "",
+        "left_partials": [
+            "atio",
+            "tal",
+            "fl",
+            "gai",
+            "agai",
+            "alt",
+            "val",
+            "fol",
+            "gla",
+            "fig",
+            "flo",
+            "foll",
+            "agi",
+            "fil",
+            "alit"
+        ],
+        "right_partials": [
+            "lf",
+            "lat",
+            "lif",
+            "offi",
+            "lati"
+        ]
+    },
+    "01010110": {
+        "base": "",
+        "left_word": "still",
+        "right_word": "lost",
+        "left_partials": [
+            "cl",
+            "ctio",
+            "col",
+            "stil",
+            "sig",
+            "clo",
+            "took",
+            "clos",
+            "stio",
+            "cov",
+            "coll",
+            "soci",
+            "ctl"
+        ],
+        "right_partials": [
+            "lic",
+            "ock",
+            "osit",
+            "loc",
+            "oic",
+            "oci",
+            "list"
+        ]
+    },
+    "11010110": {
+        "base": "",
+        "left_word": "call",
+        "right_word": "last",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00110110": {
+        "base": "",
+        "left_word": "tell",
+        "right_word": "over",
+        "left_partials": [
+            "rl",
+            "tle",
+            "tel",
+            "ttle",
+            "rel",
+            "rig",
+            "vel",
+            "tell",
+            "give",
+            "rio",
+            "elt",
+            "rov"
+        ],
+        "right_partials": [
+            "ove",
+            "over",
+            "let",
+            "ori",
+            "lve",
+            "live",
+            "orl",
+            "love"
+        ]
+    },
+    "10110110": {
+        "base": "",
+        "left_word": "felt",
+        "right_word": "life",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01110110": {
+        "base": "",
+        "left_word": "told",
+        "right_word": "lives",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11110110": {
+        "base": "",
+        "left_word": "work",
+        "right_word": "least",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "oh",
+        "left_partials": [],
+        "right_partials": [
+            "ho",
+            "ul",
+            "ion",
+            "oul",
+            "hou",
+            "ui",
+            "lin",
+            "lu",
+            "nl",
+            "hu",
+            "lon",
+            "oin",
+            "hil",
+            "onl",
+            "hol",
+            "iou",
+            "uni",
+            "houl",
+            "ull",
+            "hoo"
+        ]
+    },
+    "10001110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "hall",
+        "left_partials": [
+            "qui",
+            "alon",
+            "alu",
+            "qual",
+            "ainl",
+            "aul"
+        ],
+        "right_partials": [
+            "lan",
+            "nal",
+            "ual",
+            "onal",
+            "hal",
+            "iona",
+            "uall",
+            "ula",
+            "hall",
+            "inal",
+            "lain",
+            "lau",
+            "nall",
+            "lian"
+        ]
+    },
+    "01001110": {
+        "base": "",
+        "left_word": "soul",
+        "right_word": "john",
+        "left_partials": [
+            "sho",
+            "sion",
+            "shou",
+            "sul"
+        ],
+        "right_partials": [
+            "kno",
+            "ions",
+            "hos",
+            "ious",
+            "usi",
+            "hous",
+            "usin",
+            "onsi",
+            "lish",
+            "hus",
+            "okin",
+            "ush",
+            "lus",
+            "lkin",
+            "usl",
+            "ousl"
+        ]
+    },
+    "11001110": {
+        "base": "",
+        "left_word": "who",
+        "right_word": "how",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00101110": {
+        "base": "",
+        "left_word": "",
+        "right_word": "only",
+        "left_partials": [
+            "ely",
+            "elin",
+            "enl"
+        ],
+        "right_partials": [
+            "ly",
+            "lly",
+            "nly",
+            "only",
+            "hel",
+            "ily",
+            "len",
+            "hile",
+            "line",
+            "lue",
+            "hole",
+            "lone",
+            "loy",
+            "hone",
+            "ully",
+            "llen",
+            "ule"
+        ]
+    },
+    "10101110": {
+        "base": "",
+        "left_word": "alone",
+        "right_word": "lay",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01101110": {
+        "base": "",
+        "left_word": "should",
+        "right_word": "house",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11101110": {
+        "base": "",
+        "left_word": "would",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011110": {
+        "base": "",
+        "left_word": "thought",
+        "right_word": "into",
+        "left_partials": [
+            "gh",
+            "tion",
+            "ght",
+            "bl",
+            "tho",
+            "ting",
+            "thou"
+        ],
+        "right_partials": [
+            "ing",
+            "igh",
+            "oth",
+            "ugh",
+            "ight",
+            "hing",
+            "ough",
+            "ning",
+            "into",
+            "ught",
+            "houg",
+            "long",
+            "ling"
+        ]
+    },
+    "10011110": {
+        "base": "",
+        "left_word": "again",
+        "right_word": "having",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01011110": {
+        "base": "",
+        "left_word": "such",
+        "right_word": "looking",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11011110": {
+        "base": "",
+        "left_word": "without",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111110": {
+        "base": "",
+        "left_word": "through",
+        "right_word": "other",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10111110": {
+        "base": "",
+        "left_word": "another",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111110": {
+        "base": "",
+        "left_word": "could",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111110": {
+        "base": "",
+        "left_word": "already",
+        "right_word": "however",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000001": {
+        "base": "p",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000001": {
+        "base": "?",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01000001": {
+        "base": ")",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11000001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pass",
+        "left_partials": [
+            "spa",
+            "aps",
+            "sap",
+            "asp",
+            "sapp",
+            "wsp",
+            "wspa",
+            "spap",
+            "assp"
+        ],
+        "right_partials": [
+            "pas",
+            "pass",
+            "pw",
+            "pwa",
+            "paw",
+            "paws"
+        ]
+    },
+    "00100001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10100001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "xp",
+            "exp",
+            "appe",
+            "xpe",
+            "expe",
+            "ape",
+            "epa",
+            "eap",
+            "epea",
+            "xpa",
+            "expa",
+            "a'",
+            "eape",
+            "a'a",
+            "x'",
+            "ax'"
+        ],
+        "right_partials": [
+            "pea",
+            "ppea",
+            "pape",
+            "'a"
+        ]
+    },
+    "01100001": {
+        "base": "",
+        "left_word": "deep",
+        "right_word": "",
+        "left_partials": [
+            "spe",
+            "e's",
+            "esp",
+            "e'd",
+            "dep",
+            "espe",
+            "deep",
+            "sep",
+            "desp",
+            "depe",
+            "spee",
+            "eps",
+            "d'",
+            "d's"
+        ],
+        "right_partials": [
+            "s",
+            "'d",
+            "ped",
+            "pped",
+            "pes",
+            "pse"
+        ]
+    },
+    "11100001": {
+        "base": "",
+        "left_word": "we'd",
+        "right_word": "passed",
+        "left_partials": [
+            "we'",
+            "spea",
+            "depa",
+            "sepa",
+            "aspe",
+            "ewsp",
+            "we'd",
+            "weap",
+            "aped",
+            "weep",
+            "wep",
+            "apes",
+            "apse",
+            "swep",
+            "a's",
+            "xped",
+            "espa",
+            "dpa"
+        ],
+        "right_partials": [
+            "w",
+            "peas"
+        ]
+    },
+    "00010001": {
+        "base": "\u2190",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "tp",
+            "ttp"
+        ],
+        "right_partials": [
+            "pt"
+        ]
+    },
+    "10010001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pat",
+        "left_partials": [
+            "apt",
+            "apta",
+            "tap",
+            "tapp"
+        ],
+        "right_partials": [
+            "pat",
+            "pta",
+            "patt",
+            "pf",
+            "ptat"
+        ]
+    },
+    "01010001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": [
+            "pts",
+            "pst",
+            "ptc",
+            "pc"
+        ]
+    },
+    "11010001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "past",
+        "left_partials": [
+            "cap",
+            "capt",
+            "spac",
+            "scap",
+            "capa",
+            "apac",
+            "spat",
+            "fsp",
+            "ffsp",
+            "caps"
+        ],
+        "right_partials": [
+            "pac",
+            "past",
+            "pact",
+            "patc",
+            "psta",
+            "pats"
+        ]
+    },
+    "00110001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "per",
+        "left_partials": [
+            "t'",
+            "rep",
+            "ept",
+            "rp",
+            "tep",
+            "r'",
+            "er'",
+            "rpr",
+            "re'",
+            "ere'"
+        ],
+        "right_partials": [
+            "pr",
+            "'t",
+            "per",
+            "pre",
+            "'r",
+            "'re",
+            "pte",
+            "ppr",
+            "pet",
+            "pret"
+        ]
+    },
+    "10110001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "part",
+        "left_partials": [
+            "at'",
+            "xper",
+            "epar",
+            "rap",
+            "appr",
+            "aper",
+            "apte",
+            "repa",
+            "xpr",
+            "expr",
+            "xpre",
+            "apar"
+        ],
+        "right_partials": [
+            "par",
+            "part",
+            "pare",
+            "pear",
+            "pra",
+            "perf",
+            "pera",
+            "para"
+        ]
+    },
+    "01110001": {
+        "base": "",
+        "left_word": "step",
+        "right_word": "press",
+        "left_partials": [
+            "t's",
+            "spec",
+            "cep",
+            "cept",
+            "resp",
+            "step",
+            "r's",
+            "er's",
+            "re's",
+            "spr",
+            "sper",
+            "ccep",
+            "teps"
+        ],
+        "right_partials": [
+            "pres",
+            "pec",
+            "pers",
+            "pect",
+            "perc",
+            "prec",
+            "pted"
+        ]
+    },
+    "11110001": {
+        "base": "",
+        "left_word": "we're",
+        "right_word": "perfect",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001001": {
+        "base": "m",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10001001": {
+        "base": "",
+        "left_word": "am",
+        "right_word": "man",
+        "left_partials": [
+            "am",
+            "amp",
+            "ama",
+            "apan",
+            "amm",
+            "ampa",
+            "amn",
+            "aman"
+        ],
+        "right_partials": [
+            "ma",
+            "man",
+            "pan",
+            "mpa",
+            "nam",
+            "mpan",
+            "mana",
+            "mma",
+            "mann",
+            "mman",
+            "nap",
+            "map"
+        ]
+    },
+    "01001001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "ms",
+        "left_partials": [
+            "sm",
+            "ssm"
+        ],
+        "right_partials": [
+            "ms",
+            "nsp",
+            "mps",
+            "nsm",
+            "mns",
+            "mms"
+        ]
+    },
+    "11001001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "mass",
+        "left_partials": [
+            "sam",
+            "sma",
+            "ams",
+            "span",
+            "ansp",
+            "amps",
+            "snap",
+            "asm",
+            "assm",
+            "ssma"
+        ],
+        "right_partials": [
+            "mas",
+            "maj",
+            "mass",
+            "jap",
+            "japa",
+            "mans",
+            "jam",
+            "mw",
+            "mpas",
+            "pans"
+        ]
+    },
+    "00101001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "my",
+        "left_partials": [
+            "em",
+            "eme",
+            "eem",
+            "emp",
+            "emen",
+            "eeme",
+            "emem"
+        ],
+        "right_partials": [
+            "me",
+            "my",
+            "n'",
+            "men",
+            "pen",
+            "mem",
+            "'m",
+            "y'",
+            "mme",
+            "ppen",
+            "pene",
+            "py",
+            "mee"
+        ]
+    },
+    "10101001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "many",
+        "left_partials": [
+            "ame",
+            "ema",
+            "eam",
+            "an'",
+            "xam",
+            "exam",
+            "eman",
+            "appy",
+            "xamp",
+            "amen",
+            "xpen"
+        ],
+        "right_partials": [
+            "may",
+            "mea",
+            "many",
+            "mean",
+            "name",
+            "pany",
+            "pay",
+            "pane",
+            "man'"
+        ]
+    },
+    "01101001": {
+        "base": "",
+        "left_word": "seemed",
+        "right_word": "",
+        "left_partials": [
+            "dn'",
+            "seem",
+            "sn'",
+            "ems",
+            "emed",
+            "spen",
+            "dem",
+            "dm",
+            "emse",
+            "esn'"
+        ],
+        "right_partials": [
+            "med",
+            "mes",
+            "mse",
+            "mys",
+            "pend",
+            "myse",
+            "y's",
+            "n's",
+            "mmed",
+            "pens"
+        ]
+    },
+    "11101001": {
+        "base": "",
+        "left_word": "same",
+        "right_word": "made",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "tm",
+            "bm"
+        ],
+        "right_partials": [
+            "mb",
+            "mpt",
+            "ntm",
+            "pb",
+            "mt",
+            "mpb"
+        ]
+    },
+    "10011001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "fam",
+            "amb",
+            "tma",
+            "tnam",
+            "atm",
+            "apab",
+            "amat",
+            "bam",
+            "bama",
+            "amba",
+            "tam"
+        ],
+        "right_partials": [
+            "mat",
+            "matt",
+            "mf",
+            "mba",
+            "mpat",
+            "pant",
+            "pab",
+            "mant",
+            "mbat"
+        ]
+    },
+    "01011001": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "stm"
+        ],
+        "right_partials": [
+            "mst",
+            "mc",
+            "mbs",
+            "mpts",
+            "mcc",
+            "mcs"
+        ]
+    },
+    "11011001": {
+        "base": "",
+        "left_word": "camp",
+        "right_word": "pants",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111001": {
+        "base": "",
+        "left_word": "remember",
+        "right_word": "mr",
+        "left_partials": [
+            "rm",
+            "rem",
+            "emb",
+            "erm",
+            "tem",
+            "embe",
+            "reme",
+            "rme",
+            "temp",
+            "tme",
+            "tmen"
+        ],
+        "right_partials": [
+            "n't",
+            "ment",
+            "met",
+            "mer",
+            "mbe",
+            "mber",
+            "mr",
+            "memb",
+            "meet"
+        ]
+    },
+    "10111001": {
+        "base": "",
+        "left_word": "army",
+        "right_word": "matter",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111001": {
+        "base": "",
+        "left_word": "spent",
+        "right_word": "mrs",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111001": {
+        "base": "",
+        "left_word": "came",
+        "right_word": "parents",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000101": {
+        "base": "!",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "appi",
+            "api"
+        ],
+        "right_partials": [
+            "pai",
+            "ipa",
+            "pia",
+            "piz",
+            "pizz",
+            "iap",
+            "ippa"
+        ]
+    },
+    "01000101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "spi",
+            "sip",
+            "ssip",
+            "sipp",
+            "skip",
+            "spis"
+        ],
+        "right_partials": [
+            "ips",
+            "isp",
+            "pis",
+            "kp",
+            "pk",
+            "pki",
+            "piss",
+            "kip",
+            "psi",
+            "kipp"
+        ]
+    },
+    "11000101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "spai",
+            "wip",
+            "aspi",
+            "apk",
+            "apki",
+            "wipi",
+            "apis"
+        ],
+        "right_partials": [
+            "isap",
+            "ispa",
+            "kpa"
+        ]
+    },
+    "00100101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "i",
+        "left_partials": [
+            "epi",
+            "eepi",
+            "eppi"
+        ],
+        "right_partials": [
+            "i'",
+            "pie",
+            "ippe",
+            "ipe",
+            "'i",
+            "pipe",
+            "ppie",
+            "ip'"
+        ]
+    },
+    "10100101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "epai",
+            "z'",
+            "eapi"
+        ],
+        "right_partials": [
+            "iz'"
+        ]
+    },
+    "01100101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "keep",
+        "left_partials": [
+            "disp",
+            "espi",
+            "dip",
+            "spie",
+            "epis"
+        ],
+        "right_partials": [
+            "keep",
+            "i'd",
+            "kep",
+            "pid",
+            "ispe",
+            "pied",
+            "pies",
+            "pedi",
+            "iped",
+            "ip's",
+            "k'",
+            "k's",
+            "ipes",
+            "kesp",
+            "psid"
+        ]
+    },
+    "11100101": {
+        "base": "",
+        "left_word": "speak",
+        "right_word": "paid",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00010101": {
+        "base": "",
+        "left_word": "tip",
+        "right_word": "",
+        "left_partials": [
+            "tip",
+            "tipp"
+        ],
+        "right_partials": [
+            "pti",
+            "pit",
+            "ipt",
+            "ipti"
+        ]
+    },
+    "10010101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "apit"
+        ],
+        "right_partials": [
+            "pati",
+            "pita",
+            "ptai",
+            "ipat",
+            "pav",
+            "ptia"
+        ]
+    },
+    "01010101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pick",
+        "left_partials": [
+            "cip",
+            "spit",
+            "spic",
+            "scip",
+            "tips",
+            "ckp"
+        ],
+        "right_partials": [
+            "pic",
+            "pick",
+            "pict",
+            "icip",
+            "pici",
+            "pitc",
+            "pist",
+            "pics",
+            "ptic"
+        ]
+    },
+    "11010101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pack",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00110101": {
+        "base": "",
+        "left_word": "trip",
+        "right_word": "i've",
+        "left_partials": [
+            "rip",
+            "rpri",
+            "epti",
+            "trip",
+            "ript",
+            "e'v",
+            "e've"
+        ],
+        "right_partials": [
+            "pri",
+            "it'",
+            "peri",
+            "'v",
+            "'ve",
+            "pir",
+            "i'v",
+            "i've",
+            "priv",
+            "piri",
+            "prev",
+            "pite",
+            "peti"
+        ]
+    },
+    "10110101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "private",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01110101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "it's",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11110101": {
+        "base": "",
+        "left_word": "we've",
+        "right_word": "paris",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "him",
+        "left_partials": [],
+        "right_partials": [
+            "im",
+            "mi",
+            "him",
+            "min",
+            "ph",
+            "imp",
+            "pin",
+            "hip",
+            "imi",
+            "ppin",
+            "mmi",
+            "imm",
+            "phi",
+            "mini",
+            "hm",
+            "nim",
+            "mmin",
+            "imin",
+            "pini",
+            "mpi"
+        ]
+    },
+    "10001101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pain",
+        "left_partials": [
+            "ami",
+            "aim",
+            "amin",
+            "aph",
+            "anim",
+            "amaz"
+        ],
+        "right_partials": [
+            "hap",
+            "happ",
+            "ima",
+            "mai",
+            "main",
+            "pain",
+            "ham",
+            "pani",
+            "iam",
+            "mina",
+            "nima",
+            "pha",
+            "maz",
+            "impa"
+        ]
+    },
+    "01001101": {
+        "base": "",
+        "left_word": "ship",
+        "right_word": "miss",
+        "left_partials": [
+            "ship",
+            "sim",
+            "smi",
+            "simp",
+            "simi",
+            "shm",
+            "spin"
+        ],
+        "right_partials": [
+            "mis",
+            "ims",
+            "hims",
+            "miss",
+            "hips",
+            "ism",
+            "mik",
+            "insp",
+            "ishm",
+            "hisp",
+            "nspi",
+            "jim",
+            "km"
+        ]
+    },
+    "11001101": {
+        "base": "",
+        "left_word": "spanish",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00101101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "i'm",
+        "left_partials": [
+            "emi",
+            "emin",
+            "epin",
+            "eph"
+        ],
+        "right_partials": [
+            "ime",
+            "hem",
+            "he'",
+            "i'm",
+            "mine",
+            "hey'",
+            "phy",
+            "imme",
+            "pine",
+            "imen",
+            "phe",
+            "peni",
+            "hme",
+            "in'",
+            "hmen",
+            "meh"
+        ]
+    },
+    "10101101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "happy",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01101101": {
+        "base": "",
+        "left_word": "she'd",
+        "right_word": "mind",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11101101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "make",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "tim",
+            "timi",
+            "bmi"
+        ],
+        "right_partials": [
+            "mit",
+            "mbi",
+            "mitt",
+            "mmit",
+            "imit",
+            "mbin",
+            "ntim",
+            "imb",
+            "mpti",
+            "ptin",
+            "mbit",
+            "intm",
+            "mith",
+            "itm",
+            "mitm",
+            "ptim",
+            "pth"
+        ]
+    },
+    "10011101": {
+        "base": "",
+        "left_word": "",
+        "right_word": "path",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01011101": {
+        "base": "",
+        "left_word": "smith",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11011101": {
+        "base": "",
+        "left_word": "captain",
+        "right_word": "match",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111101": {
+        "base": "",
+        "left_word": "them",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10111101": {
+        "base": "",
+        "left_word": "remain",
+        "right_word": "haven't",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111101": {
+        "base": "",
+        "left_word": "didn't",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111101": {
+        "base": "",
+        "left_word": "that's",
+        "right_word": "perhaps",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10000011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "apo",
+            "appo"
+        ],
+        "right_partials": [
+            "opa",
+            "oap"
+        ]
+    },
+    "01000011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "spo",
+            "sop",
+            "spos",
+            "sspo",
+            "spoo"
+        ],
+        "right_partials": [
+            "pos",
+            "poss",
+            "ppos",
+            "osp",
+            "ops",
+            "oops",
+            "opos",
+            "osop",
+            "pso"
+        ]
+    },
+    "11000011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "soap"
+        ],
+        "right_partials": [
+            "pow",
+            "posa"
+        ]
+    },
+    "00100011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pope",
+        "left_partials": [
+            "eop",
+            "epo"
+        ],
+        "right_partials": [
+            "peo",
+            "peop",
+            "ope",
+            "oppe",
+            "o'",
+            "poe",
+            "oope",
+            "pope",
+            "oe'",
+            "'o",
+            "-p"
+        ]
+    },
+    "10100011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "eapo",
+            "xpo",
+            "expo"
+        ],
+        "right_partials": [
+            "opea",
+            "-pa"
+        ]
+    },
+    "01100011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "possessed",
+        "left_partials": [
+            "espo",
+            "dop"
+        ],
+        "right_partials": [
+            "pose",
+            "oped",
+            "ospe",
+            "o's",
+            "osep",
+            "opes",
+            "od'",
+            "od's",
+            "o'd",
+            "oe's",
+            "pod",
+            "oss'"
+        ]
+    },
+    "11100011": {
+        "base": "",
+        "left_word": "exposed",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00010011": {
+        "base": "",
+        "left_word": "top",
+        "right_word": "",
+        "left_partials": [
+            "top",
+            "topp",
+            "toop"
+        ],
+        "right_partials": [
+            "pot",
+            "opt",
+            "pto",
+            "pott",
+            "ptop"
+        ]
+    },
+    "10010011": {
+        "base": "",
+        "left_word": "gap",
+        "right_word": "",
+        "left_partials": [
+            "gap",
+            "apto",
+            "gapo",
+            "atop"
+        ],
+        "right_partials": [
+            "pag",
+            "pota",
+            "opag",
+            "paga"
+        ]
+    },
+    "01010011": {
+        "base": "",
+        "left_word": "stop",
+        "right_word": "post",
+        "left_partials": [
+            "stop",
+            "cop",
+            "spot",
+            "tops",
+            "cops",
+            "coop",
+            "copp",
+            "gosp",
+            "copt",
+            "scop"
+        ],
+        "right_partials": [
+            "post",
+            "poc",
+            "pots",
+            "pco"
+        ]
+    },
+    "11010011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00110011": {
+        "base": "",
+        "left_word": "report",
+        "right_word": "poor",
+        "left_partials": [
+            "rop",
+            "rope",
+            "repo",
+            "epor",
+            "rpo",
+            "ropo",
+            "ropp",
+            "rpor",
+            "roop"
+        ],
+        "right_partials": [
+            "pro",
+            "por",
+            "port",
+            "oper",
+            "ppor",
+            "prop",
+            "ppro",
+            "prog",
+            "poor",
+            "prot",
+            "orp"
+        ]
+    },
+    "10110011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "page",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01110011": {
+        "base": "",
+        "left_word": "stopped",
+        "right_word": "process",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11110011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "power",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "up",
+        "left_partials": [],
+        "right_partials": [
+            "om",
+            "mo",
+            "up",
+            "mu",
+            "pu",
+            "um",
+            "omp",
+            "mon",
+            "omm",
+            "pon",
+            "oom",
+            "mom",
+            "mpo",
+            "mou",
+            "upp",
+            "oup",
+            "upo",
+            "upon",
+            "uppo",
+            "num"
+        ]
+    },
+    "10001011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [
+            "amo",
+            "amon",
+            "amou",
+            "apon",
+            "amu",
+            "ampu"
+        ],
+        "right_partials": [
+            "oma",
+            "ompa",
+            "oman",
+            "uma",
+            "uman",
+            "omma",
+            "pau",
+            "manu",
+            "mona",
+            "mau",
+            "upa",
+            "napo",
+            "mao",
+            "opam"
+        ]
+    },
+    "01001011": {
+        "base": "",
+        "left_word": "sum",
+        "right_word": "jump",
+        "left_partials": [
+            "som",
+            "sup",
+            "supp",
+            "sum",
+            "spon",
+            "summ",
+            "smo",
+            "susp",
+            "ssum"
+        ],
+        "right_partials": [
+            "mos",
+            "mus",
+            "pons",
+            "mous",
+            "mpos",
+            "pus",
+            "ups",
+            "usp",
+            "ums",
+            "mons",
+            "oms"
+        ]
+    },
+    "11001011": {
+        "base": "",
+        "left_word": "woman",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00101011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "money",
+        "left_partials": [
+            "emo",
+            "epu"
+        ],
+        "right_partials": [
+            "ome",
+            "on'",
+            "omen",
+            "u'",
+            "ou'",
+            "you'",
+            "open",
+            "mome",
+            "ume",
+            "mone",
+            "meo",
+            "omeo",
+            "meon",
+            "memo",
+            "omme",
+            "umen",
+            "ompe",
+            "umme"
+        ]
+    },
+    "10101011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01101011": {
+        "base": "",
+        "left_word": "some",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11101011": {
+        "base": "",
+        "left_word": "women",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "put",
+        "left_partials": [
+            "tom",
+            "tum",
+            "gm",
+            "bom",
+            "bomb",
+            "tup",
+            "ttom"
+        ],
+        "right_partials": [
+            "mot",
+            "put",
+            "umb",
+            "pub",
+            "mont",
+            "numb",
+            "mong",
+            "omb",
+            "mout",
+            "mput",
+            "upt",
+            "putt",
+            "ptu"
+        ]
+    },
+    "10011011": {
+        "base": "",
+        "left_word": "among",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01011011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "most",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11011011": {
+        "base": "",
+        "left_word": "famous",
+        "right_word": "moscow",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111011": {
+        "base": "",
+        "left_word": "",
+        "right_word": "more",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10111011": {
+        "base": "",
+        "left_word": "from",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111011": {
+        "base": "",
+        "left_word": "don't",
+        "right_word": "person",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111011": {
+        "base": "",
+        "left_word": "company",
+        "right_word": "major",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00000111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pool",
+        "left_partials": [],
+        "right_partials": [
+            "pl",
+            "opl",
+            "lp",
+            "poi",
+            "pol",
+            "pli",
+            "poli",
+            "plo",
+            "ppl",
+            "lip",
+            "lop",
+            "opi",
+            "pil",
+            "ipl",
+            "ppli",
+            "ppoi",
+            "lipp",
+            "oppi",
+            "pill",
+            "pilo"
+        ]
+    },
+    "10000111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "lap",
+        "left_partials": [
+            "appl",
+            "apol",
+            "alp"
+        ],
+        "right_partials": [
+            "pla",
+            "plai",
+            "pal",
+            "lap",
+            "pala",
+            "ipal",
+            "llap",
+            "pola",
+            "lapp",
+            "ppal",
+            "pall",
+            "ppla",
+            "palo"
+        ]
+    },
+    "01000111": {
+        "base": "",
+        "left_word": "slip",
+        "right_word": "lips",
+        "left_partials": [
+            "spok",
+            "spl",
+            "slip",
+            "spli",
+            "spoi",
+            "spio"
+        ],
+        "right_partials": [
+            "posi",
+            "pok",
+            "lips",
+            "ospi",
+            "plis",
+            "ispl",
+            "ispo",
+            "lps",
+            "plos",
+            "pois",
+            "piso",
+            "kpl",
+            "opk",
+            "opki"
+        ]
+    },
+    "11000111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00100111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "people",
+        "left_partials": [
+            "eopl",
+            "elp",
+            "epl",
+            "elop",
+            "e'l",
+            "e'll",
+            "epli"
+        ],
+        "right_partials": [
+            "ple",
+            "ople",
+            "'l",
+            "'ll",
+            "plie",
+            "i'l",
+            "i'll",
+            "leep",
+            "iple",
+            "lope",
+            "pel",
+            "pple",
+            "lep"
+        ]
+    },
+    "10100111": {
+        "base": "",
+        "left_word": "apple",
+        "right_word": "pale",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01100111": {
+        "base": "",
+        "left_word": "spoke",
+        "right_word": "people's",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11100111": {
+        "base": "",
+        "left_word": "we'll",
+        "right_word": "please",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00010111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "pilot",
+        "left_partials": [
+            "topi",
+            "tipl",
+            "tpl"
+        ],
+        "right_partials": [
+            "ptio",
+            "opti",
+            "ptl",
+            "pig",
+            "plit",
+            "pov",
+            "pilg",
+            "plot",
+            "ltip",
+            "lpt",
+            "lpit"
+        ]
+    },
+    "10010111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01010111": {
+        "base": "",
+        "left_word": "split",
+        "right_word": "politics",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11010111": {
+        "base": "",
+        "left_word": "capital",
+        "right_word": "political",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00110111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "prove",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10110111": {
+        "base": "",
+        "left_word": "april",
+        "right_word": "plate",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01110111": {
+        "base": "",
+        "left_word": "replied",
+        "right_word": "police",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11110111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "place",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00001111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "million",
+        "left_partials": [],
+        "right_partials": [
+            "mil",
+            "mpl",
+            "hom",
+            "lm",
+            "omi",
+            "poin",
+            "ompl",
+            "impo",
+            "hop",
+            "mili",
+            "pul",
+            "impl",
+            "lmo",
+            "hum",
+            "omin",
+            "pho",
+            "minu",
+            "lim",
+            "muni",
+            "pull"
+        ]
+    },
+    "10001111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "human",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01001111": {
+        "base": "",
+        "left_word": "shop",
+        "right_word": "mission",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11001111": {
+        "base": "",
+        "left_word": "small",
+        "right_word": "",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00101111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "home",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10101111": {
+        "base": "",
+        "left_word": "example",
+        "right_word": "play",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01101111": {
+        "base": "",
+        "left_word": "simply",
+        "right_word": "pulled",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11101111": {
+        "base": "",
+        "left_word": "explained",
+        "right_word": "played",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00011111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "might",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10011111": {
+        "base": "",
+        "left_word": "film",
+        "right_word": "imagination",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01011111": {
+        "base": "",
+        "left_word": "",
+        "right_word": "much",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11011111": {
+        "base": "",
+        "left_word": "almost",
+        "right_word": "making",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "00111111": {
+        "base": "",
+        "left_word": "government",
+        "right_word": "mother",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "10111111": {
+        "base": "",
+        "left_word": "family",
+        "right_word": "important",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "01111111": {
+        "base": "",
+        "left_word": "something",
+        "right_word": "possible",
+        "left_partials": [],
+        "right_partials": []
+    },
+    "11111111": {
+        "base": "",
+        "left_word": "especially",
+        "right_word": "himself",
+        "left_partials": [],
+        "right_partials": []
+    }
+}
