@@ -1,15 +1,14 @@
 {
   "name": "ginni_lover",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.5.0",
+  "description": "PC Side ASETNIOP input method designed for the Ginny keyboard.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tesseractcat",
   "license": "ISC",
   "dependencies": {
-    "@nut-tree/nut-js": "^1.5.1-next.20200914115152",
     "iohook": "^0.6.6",
     "left-pad": "^1.3.0",
     "robotjs": "github:octalmage/robotjs",
