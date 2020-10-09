@@ -97,9 +97,11 @@ iohook.on('keydown', event => {
     
     //F15 -- Spacebar
     if (event.keycode == 93) {
-        robot.typeString(predict_word(chords_list, true))
-        robot.typeString(' ')
-        reset_word_mode()
+        setTimeout(function() {
+            robot.typeStringDelayed(predict_word(chords_list, true), 2000)
+            robot.typeString(' ')
+            reset_word_mode()
+        }, 50)
     }
 })
 
