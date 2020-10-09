@@ -12,3 +12,7 @@ layout:
 ```
 
 The spacebar outputs F15, as it is independent from the chording.
+
+## Dependencies
+
+Note you have to build the latest version of robotjs yourself, see https://github.com/octalmage/robotjs/issues/530.
