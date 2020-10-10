@@ -12,6 +12,9 @@ const parser = port.pipe(new ByteLength({length: 6}))
 let chords_file = fs.readFileSync('chords.json')
 let chords_dict = JSON.parse(chords_file)
 
+let autoreplace_file = fs.readFileSync('autoreplace.json')
+let autoreplace_dict = JSON.parse(autoreplace_file)
+
 let words_file = fs.readFileSync('30k.txt').toString()
 
 var special_chords = [0b00001111, 0b10011001, 0b00010001]
@@ -264,13 +267,21 @@ function predict_word(chords, final) {
     //console.log(pred_scores.slice(0,5))
     
     if (pred_scores.length != 0) {
-        return pred_scores[0].match;
+        if (pred_scores[0].match in autoreplace_dict) {
+            return autoreplace_dict[pred_scores[0].match]
+        } else {
+            return pred_scores[0].match
+        }
     } else {
         let pred_out = ""
         for (var i = 0; i < chords.length; i++) {
             pred_out += chords_dict[chords[i].chord].base != "" ?
                 chords_dict[chords[i].chord].base : chords_dict[chords[i].chord].left_partials[0]
         }
-        return pred_out
+        if (pred_out in autoreplace_dict) {
+            return autoreplace_dict[pred_out]
+        } else {
+            return pred_out
+        }
     }
 }
