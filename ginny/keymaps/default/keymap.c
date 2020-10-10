@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //)};
 [0] = LAYOUT_ginny(
 		//STN_N1, STN_N2, STN_N3, STN_N4, STN_S1, STN_S2, STN_N5, STN_N6, STN_N7, STN_N8
-		STN_N1, STN_N2, STN_N3, STN_N4, STN_S1, KC_F15, STN_N5, STN_N6, STN_N7, STN_N8
+		STN_N1, STN_N2, STN_N3, STN_N4, KC_F15, KC_F16, STN_N5, STN_N6, STN_N7, STN_N8
 )};
 
 uint16_t lastkeycode = 0;
