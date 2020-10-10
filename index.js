@@ -30,25 +30,24 @@ var last_word = ""
 
 var reset_word_timeout
 
+var mod_down = false
+
 parser.on('data', async (data) => {
     let bitmask = 0;
-    let thumbmask = 0;
     let rightchord = data[2]
     bitmask = (bitmask | data[0]) << 2
     bitmask = bitmask | (data[5] >> 5)
     bitmask = 0b0111111111 & bitmask
-    thumbmask = data[1] >> 5
     
     let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
     
     //console.log('Data: ' + leftPad(data[0].toString(2), 8, 0) + ' - ' + leftPad(data[1].toString(2), 8, 0) + ' - ' + leftPad(data[5].toString(2), 8, 0))
     //robot.typeString("Hello World!")
-    //console.log(leftPad(bitmask.toString(2), 8, 0) + ' - ' + leftPad(thumbmask.toString(2), 2, 0))
     
     clearTimeout(reset_word_timeout)
     reset_word_timeout = setTimeout(() => {reset_word_mode()}, 2500)
     
-    if (thumbmask == 0b10) {
+    if (mod_down) {
         if (bitmask == 0b00010000) {
             console.log("Toggle char mode!")
             char_mode = !char_mode
@@ -60,7 +59,8 @@ parser.on('data', async (data) => {
             return
         }
         if (bitmask == 0b01000000) {
-            robot.keyTap("tab", "alt")
+            robot.keyToggle("alt", "down")
+            robot.keyTap("tab")
             return
         }
         if (bitmask == 0b10000000) {
@@ -94,7 +94,7 @@ parser.on('data', async (data) => {
         }*/
     }
     
-    if (bitmask != 0 && !special_chords.includes(bitmask) && thumbmask != 0b10 && !char_mode) {
+    if (bitmask != 0 && !special_chords.includes(bitmask) && !mod_down && !char_mode) {
         if (break_words_chars.includes(chords_dict[leftPad(bitmask.toString(2), 8, 0)].base)
             && chords_dict[leftPad(bitmask.toString(2), 8, 0)].base != '') {
             //Punctuation
@@ -122,7 +122,7 @@ parser.on('data', async (data) => {
             } else {
                 word_mode = false
                 //Send backspace
-                if (thumbmask == 0b10) {
+                if (mod_down) {
                     robot.keyTap("backspace", "control")
                     reset_word_mode()
                 } else {
@@ -147,14 +147,24 @@ iohook.on('keydown', event => {
     //  metaKey: false
     //}
     
-    //F15 -- Spacebar
+    //F15 -- Mod
     if (event.keycode == 93) {
+        mod_down = true
+    }
+    //F16 -- Spacebar
+    if (event.keycode == 99) {
         setTimeout(function() {
             if (!char_mode)
                 robot.typeStringDelayed(predict_word(chords_list, true), type_word_cpm)
             robot.typeString(' ')
             reset_word_mode()
         }, 50)
+    }
+})
+iohook.on('keyup', event => {
+    if (event.keycode == 93) {
+        robot.keyToggle("alt", "up")
+        mod_down = false
     }
 })
 
