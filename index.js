@@ -59,8 +59,12 @@ parser.on('data', async (data) => {
             robot.keyTap("escape")
             return
         }
-        if (bitmask == 0b10000000) {
+        if (bitmask == 0b01000000) {
             robot.keyTap("tab", "alt")
+            return
+        }
+        if (bitmask == 0b10000000) {
+            robot.keyTap("a", "control")
             return
         }
     }
