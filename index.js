@@ -20,6 +20,9 @@ var break_words_chars = "?.,!()[]{}"
 //keyboard.config.autoDelayMs = 0
 robot.setKeyboardDelay(0)
 
+var type_word_cpm = 2200
+var char_mode = false
+
 var chords_list = []
 
 var word_mode = true
@@ -28,35 +31,63 @@ var last_word = ""
 var reset_word_timeout
 
 parser.on('data', async (data) => {
-    var bitmask = 0;
-    var thumbmask = 0;
-    var rightchord = data[2]
+    let bitmask = 0;
+    let thumbmask = 0;
+    let rightchord = data[2]
     bitmask = (bitmask | data[0]) << 2
     bitmask = bitmask | (data[5] >> 5)
     bitmask = 0b0111111111 & bitmask
     thumbmask = data[1] >> 5
+    
+    let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
     
     //console.log('Data: ' + leftPad(data[0].toString(2), 8, 0) + ' - ' + leftPad(data[1].toString(2), 8, 0) + ' - ' + leftPad(data[5].toString(2), 8, 0))
     //robot.typeString("Hello World!")
     //console.log(leftPad(bitmask.toString(2), 8, 0) + ' - ' + leftPad(thumbmask.toString(2), 2, 0))
     
     clearTimeout(reset_word_timeout)
-    reset_word_timeout = setTimeout(() => {console.log("Timeout");reset_word_mode()}, 2500)
+    reset_word_timeout = setTimeout(() => {reset_word_mode()}, 2500)
     
-    if (bitmask != 0 && !special_chords.includes(bitmask) && thumbmask != 0b10) {
+    if (thumbmask == 0b10) {
+        if (bitmask == 0b00010000) {
+            console.log("Toggle char mode!")
+            char_mode = !char_mode
+            reset_word_mode()
+            return
+        }
+        if (bitmask == 0b00100000) {
+            robot.keyTap("escape")
+            return
+        }
+        if (bitmask == 0b10000000) {
+            robot.keyTap("tab", "alt")
+            return
+        }
+    }
+    
+    if (bitmask != 0 && !special_chords.includes(bitmask) && char_mode) {
+        if (chord.base != "") {
+            robot.keyTap(chord.base)
+            return;
+        }/* else if (chord.left_partials.length != 0) {
+            robot.typeString(chord.left_partials[0])
+        }*/
+    }
+    
+    if (bitmask != 0 && !special_chords.includes(bitmask) && thumbmask != 0b10 && !char_mode) {
         if (break_words_chars.includes(chords_dict[leftPad(bitmask.toString(2), 8, 0)].base)
             && chords_dict[leftPad(bitmask.toString(2), 8, 0)].base != '') {
+            //Punctuation
+            robot.typeStringDelayed(predict_word(chords_list, true), type_word_cpm)
             word_mode = false
             chords_list = []
             robot.typeString(chords_dict[leftPad(bitmask.toString(2), 8, 0)].base)
         } else if (word_mode) {
-            let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
             chords_list.push({chord: leftPad(bitmask.toString(2), 8, 0), right: rightchord})
             
             //redraw_word()
         } else {
             //Send base
-            let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
             if (chord.base != "") {
                 robot.typeString(chord.base)
             } else if (chord.left_partials.length != 0) {
@@ -73,6 +104,7 @@ parser.on('data', async (data) => {
                 //Send backspace
                 if (thumbmask == 0b10) {
                     robot.keyTap("backspace", "control")
+                    reset_word_mode()
                 } else {
                     robot.keyTap("backspace")
                 }
@@ -98,7 +130,8 @@ iohook.on('keydown', event => {
     //F15 -- Spacebar
     if (event.keycode == 93) {
         setTimeout(function() {
-            robot.typeStringDelayed(predict_word(chords_list, true), 2000)
+            if (!char_mode)
+                robot.typeStringDelayed(predict_word(chords_list, true), type_word_cpm)
             robot.typeString(' ')
             reset_word_mode()
         }, 50)
@@ -197,8 +230,8 @@ function predict_word(chords, final) {
     }
     
     console.log("RegExp: " + pred_search)
-    console.log("Matches: ")
-    console.log(pred_scores.slice(0,5))
+    //console.log("Matches: ")
+    //console.log(pred_scores.slice(0,5))
     
     if (pred_scores.length != 0) {
         return pred_scores[0].match;
