@@ -67,6 +67,22 @@ parser.on('data', async (data) => {
             robot.keyTap("a", "control")
             return
         }
+        if (bitmask == 0b00001000) {
+            robot.keyTap("left")
+            return
+        }
+        if (bitmask == 0b00000100) {
+            robot.keyTap("down")
+            return
+        }
+        if (bitmask == 0b00000010) {
+            robot.keyTap("up")
+            return
+        }
+        if (bitmask == 0b00000001) {
+            robot.keyTap("right")
+            return
+        }
     }
     
     if (bitmask != 0 && !special_chords.includes(bitmask) && char_mode) {
