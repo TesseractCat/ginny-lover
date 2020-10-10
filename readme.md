@@ -11,7 +11,8 @@ layout:
             right chord? (1 or 0)
 ```
 
-The spacebar outputs F15, as it is independent from the chording.
+The spacebar outputs F16, as it is independent from the chording.
+The left thumb outputs F15.
 
 ## Dependencies
 
