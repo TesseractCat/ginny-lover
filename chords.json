@@ -1,6 +1,7 @@
 {
     "10000000": {
         "base": "a",
+        "num": 1,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -8,6 +9,7 @@
     },
     "01000000": {
         "base": "s",
+        "num": 2,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -22,6 +24,7 @@
     },
     "00100000": {
         "base": "e",
+        "num": 3,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -71,6 +74,7 @@
     },
     "00010000": {
         "base": "t",
+        "num": 4,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -120,6 +124,7 @@
     },
     "00110000": {
         "base": "r",
+        "num": 5,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -211,6 +216,7 @@
     },
     "00001000": {
         "base": "n",
+        "num": 7,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -541,6 +547,7 @@
     },
     "00000100": {
         "base": "i",
+        "num": 8,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -873,6 +880,7 @@
     },
     "00001100": {
         "base": "h",
+        "num": 6,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -1156,7 +1164,7 @@
     "00111100": {
         "base": "",
         "left_word": "the",
-        "right_word": "",
+        "right_word": "the",
         "left_partials": [
             "the",
             "ther",
@@ -1205,6 +1213,7 @@
     },
     "00000010": {
         "base": "o",
+        "num": 9,
         "left_word": "",
         "right_word": "",
         "left_partials": [],
@@ -2408,6 +2417,7 @@
     },
     "00000001": {
         "base": "p",
+        "num": 0,
         "left_word": "",
         "right_word": "",
         "left_partials": [],

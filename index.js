@@ -1,5 +1,6 @@
 const SerialPort = require('serialport')
 const ByteLength = require('@serialport/parser-byte-length')
+const { exec } = require('child_process')
 const robot = require('robotjs')
 const iohook = require('iohook')
 
@@ -25,6 +26,7 @@ robot.setKeyboardDelay(0)
 
 var type_word_cpm = 2200
 var char_mode = false
+var num_mode = false
 
 var chords_list = []
 
@@ -33,7 +35,14 @@ var last_word = ""
 
 var reset_word_timeout
 
+var double_press_timeout = 200
+var double_press_pending = false
 var mod_down = false
+var next_shift = false
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 parser.on('data', async (data) => {
     let bitmask = 0;
@@ -55,6 +64,8 @@ parser.on('data', async (data) => {
             console.log("Toggle char mode!")
             char_mode = !char_mode
             reset_word_mode()
+            //Play noise
+            exec("ffplay sound.mp3 -nodisp -autoexit")
             return
         }
         if (bitmask == 0b00100000) {
@@ -92,12 +103,19 @@ parser.on('data', async (data) => {
         if (chord.base != "") {
             robot.keyTap(chord.base)
             return;
-        }/* else if (chord.left_partials.length != 0) {
-            robot.typeString(chord.left_partials[0])
-        }*/
+        }
     }
     
-    if (bitmask != 0 && !special_chords.includes(bitmask) && !mod_down && !char_mode) {
+    if (bitmask != 0 && !special_chords.includes(bitmask) && num_mode) {
+        if (chord.base != "") {
+            if (chord.num != undefined) {
+                robot.keyTap(chord.num)
+            }
+            return;
+        }
+    }
+    
+    if (bitmask != 0 && !special_chords.includes(bitmask) && !mod_down && !char_mode && !num_mode) {
         if (break_words_chars.includes(chords_dict[leftPad(bitmask.toString(2), 8, 0)].base)
             && chords_dict[leftPad(bitmask.toString(2), 8, 0)].base != '') {
             //Punctuation
@@ -107,20 +125,24 @@ parser.on('data', async (data) => {
             robot.typeString(chords_dict[leftPad(bitmask.toString(2), 8, 0)].base)
         } else if (word_mode) {
             chords_list.push({chord: leftPad(bitmask.toString(2), 8, 0), right: rightchord})
-            
             //redraw_word()
         } else {
             //Send base
             if (chord.base != "") {
-                robot.typeString(chord.base)
+                robot.typeString((next_shift ? capitalizeFirstLetter(chord.base) : chord.base))
             } else if (chord.left_partials.length != 0) {
-                robot.typeString(chord.left_partials[0])
+                robot.typeString((next_shift ? capitalizeFirstLetter(chord.left_partials[0]) : chord.left_partials[0]))
             }
+            next_shift = false
         }
     } else if (special_chords.includes(bitmask)) {
         if (bitmask == 0b00010001) {
             if (chords_list.length != 0) {
-                chords_list.pop();
+                if (mod_down) {
+                    chords_list = []
+                } else {
+                    chords_list.pop();
+                }
                 //redraw_word()
             } else {
                 word_mode = false
@@ -135,6 +157,9 @@ parser.on('data', async (data) => {
         } else if (bitmask == 0b00001111) {
             robot.keyTap("enter")
             reset_word_mode()
+        } else if (bitmask == 0b10011001) {
+            console.log("Num mode")
+            num_mode = !num_mode
         }
     }
 })
@@ -151,16 +176,25 @@ iohook.on('keydown', event => {
     //}
     
     //F15 -- Mod
-    if (event.keycode == 93) {
+    if (event.keycode == 93 && !double_press_pending && !mod_down) {
+        double_press_pending = true
+        setTimeout(function() {double_press_pending = false}, double_press_timeout)
         mod_down = true
+    } else if (event.keycode == 93 && double_press_pending && !mod_down) {
+        console.log("Double press!")
+        next_shift = true
     }
     //F16 -- Spacebar
     if (event.keycode == 99) {
         setTimeout(function() {
-            if (!char_mode)
-                robot.typeStringDelayed(predict_word(chords_list, true), type_word_cpm)
+            if (!char_mode) {
+                robot.typeStringDelayed(
+                    (next_shift ? capitalizeFirstLetter(predict_word(chords_list, true)) : predict_word(chords_list, true)),
+                    type_word_cpm)
+            }
             robot.typeString(' ')
             reset_word_mode()
+            next_shift = false
         }, 50)
     }
 })
@@ -262,7 +296,7 @@ function predict_word(chords, final) {
         pred_scores = pred_scores.filter(x => x.score == pred_scores[0].score)
     }
     
-    console.log("RegExp: " + pred_search)
+    //console.log("RegExp: " + pred_search)
     //console.log("Matches: ")
     //console.log(pred_scores.slice(0,5))
     
