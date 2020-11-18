@@ -43,6 +43,9 @@ Double tap left thumb makes the next character uppercase.
 
 Enable "Sound" in `config.json` to play a sound whenever char mode is toggled. This requires `ffplay`.
 
+Enable "Debug Mode" in `config.json` to show the data sent over serial to verify that the correct
+COM port has been selected.
+
 ## Dependencies
 
 Note you have to build the latest version of robotjs yourself, see https://github.com/octalmage/robotjs/issues/530.
