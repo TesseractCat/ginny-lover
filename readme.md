@@ -41,6 +41,8 @@ Left thumb + t is toggle char mode.
 
 Double tap left thumb makes the next character uppercase.
 
+Enable "Sound" in `config.json` to play a sound whenever char mode is toggled. This requires `ffplay`.
+
 ## Dependencies
 
 Note you have to build the latest version of robotjs yourself, see https://github.com/octalmage/robotjs/issues/530.

@@ -8,10 +8,12 @@ const leftPad = require('left-pad')
 const fs = require('fs')
 
 let config_dict = JSON.parse(fs.readFileSync('config.json'))
-console.log("Trying to connect to " + config_dict["COM Port"])
+console.log("***")
+console.log("Attempting to connect to " + config_dict["COM Port"])
 
 const port = new SerialPort(config_dict["COM Port"])
 const parser = port.pipe(new ByteLength({length: 6}))
+var connection_confirmed = false
 
 let chords_file = fs.readFileSync('chords.json')
 let chords_dict = JSON.parse(chords_file)
@@ -24,7 +26,6 @@ let words_file = fs.readFileSync('30k.txt').toString()
 var special_chords = [0b00001111, 0b10011001, 0b00010001]
 var break_words_chars = "?.,!()[]{}"
 
-//keyboard.config.autoDelayMs = 0
 robot.setKeyboardDelay(0)
 
 const debug_mode = config_dict["Debug Mode"]
@@ -50,6 +51,17 @@ function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+port.on('open', function () {
+	console.log("***")
+    console.log("\
+            //   ) )                                    / /                                        \n \
+	   //        ( )   __       __                 / /         ___              ___      __    \n \
+	  //  ____  / / //   ) ) //   ) ) //   / /    / /        //   ) ) ||  / / //___) ) //  ) ) \n \
+	 //    / / / / //   / / //   / / ((___/ /    / /        //   / /  || / / //       //       \n \
+	((____/ / / / //   / / //   / /      / /    / /____/ / ((___/ /   ||/ / ((____   //        ")
+	console.log("***")
+});
+
 parser.on('data', async (data) => {
     let bitmask = 0;
     let rightchord = data[2]
@@ -59,6 +71,10 @@ parser.on('data', async (data) => {
     
     let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
     
+	if (!connection_confirmed) {
+		console.log("Serial connection confirmed!\n***")
+		connection_confirmed = true
+	}
     if (debug_mode) {
         console.log('Data: ' + leftPad(data[0].toString(2), 8, 0) + ' - ' + leftPad(data[1].toString(2), 8, 0) + ' - ' + leftPad(data[5].toString(2), 8, 0))
     }
@@ -72,7 +88,9 @@ parser.on('data', async (data) => {
             char_mode = !char_mode
             reset_word_mode()
             //Play noise
-            exec("ffplay sound.mp3 -nodisp -autoexit")
+			if (config_dict["Sound"]) {
+				exec("ffplay sound.mp3 -nodisp -autoexit")
+			}
             return
         }
         if (bitmask == 0b00100000) {

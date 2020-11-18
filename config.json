@@ -1,4 +1,5 @@
 {
     "COM Port": "COM5",
-    "Debug Mode": false
+    "Debug Mode": false,
+	"Sound": false
 }
