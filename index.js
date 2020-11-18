@@ -7,7 +7,10 @@ const iohook = require('iohook')
 const leftPad = require('left-pad')
 const fs = require('fs')
 
-const port = new SerialPort('COM5')
+let config_dict = JSON.parse(fs.readFileSync('config.json'))
+console.log("Trying to connect to " + config_dict["COM Port"])
+
+const port = new SerialPort(config_dict["COM Port"])
 const parser = port.pipe(new ByteLength({length: 6}))
 
 let chords_file = fs.readFileSync('chords.json')
@@ -23,6 +26,9 @@ var break_words_chars = "?.,!()[]{}"
 
 //keyboard.config.autoDelayMs = 0
 robot.setKeyboardDelay(0)
+
+const debug_mode = config_dict["Debug Mode"]
+console.log("Debug Mode: " + debug_mode)
 
 var type_word_cpm = 2200
 var char_mode = false
@@ -53,8 +59,9 @@ parser.on('data', async (data) => {
     
     let chord = chords_dict[leftPad(bitmask.toString(2), 8, 0)];
     
-    //console.log('Data: ' + leftPad(data[0].toString(2), 8, 0) + ' - ' + leftPad(data[1].toString(2), 8, 0) + ' - ' + leftPad(data[5].toString(2), 8, 0))
-    //robot.typeString("Hello World!")
+    if (debug_mode) {
+        console.log('Data: ' + leftPad(data[0].toString(2), 8, 0) + ' - ' + leftPad(data[1].toString(2), 8, 0) + ' - ' + leftPad(data[5].toString(2), 8, 0))
+    }
     
     clearTimeout(reset_word_timeout)
     reset_word_timeout = setTimeout(() => {reset_word_mode()}, 2500)
