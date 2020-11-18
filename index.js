@@ -30,6 +30,16 @@ robot.setKeyboardDelay(0)
 
 const debug_mode = config_dict["Debug Mode"]
 console.log("Debug Mode: " + debug_mode)
+console.log("Sound: " + config_dict["Sound"])
+
+console.log("Swapped Thumbs: " + config_dict["Swap Thumbs"])
+if (!config_dict["Swap Thumbs"]) {
+    var mod_keycode = 93;
+    var spacebar_keycode = 99;
+} else {
+    var mod_keycode = 99;
+    var spacebar_keycode = 93;
+}
 
 var type_word_cpm = 2200
 var char_mode = false
@@ -201,16 +211,16 @@ iohook.on('keydown', event => {
     //}
     
     //F15 -- Mod
-    if (event.keycode == 93 && !double_press_pending && !mod_down) {
+    if (event.keycode == mod_keycode && !double_press_pending && !mod_down) {
         double_press_pending = true
         setTimeout(function() {double_press_pending = false}, double_press_timeout)
         mod_down = true
-    } else if (event.keycode == 93 && double_press_pending && !mod_down) {
+    } else if (event.keycode == mod_keycode && double_press_pending && !mod_down) {
         console.log("Double press!")
         next_shift = true
     }
     //F16 -- Spacebar
-    if (event.keycode == 99) {
+    if (event.keycode == spacebar_keycode) {
         setTimeout(function() {
             if (!char_mode) {
                 robot.typeStringDelayed(
@@ -224,7 +234,7 @@ iohook.on('keydown', event => {
     }
 })
 iohook.on('keyup', event => {
-    if (event.keycode == 93) {
+    if (event.keycode == mod_keycode) {
         robot.keyToggle("alt", "up")
         mod_down = false
     }
